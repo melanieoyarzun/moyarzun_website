@@ -32,8 +32,8 @@ enableEmoji = true
   orgLocal = "Chile"
   description = "PhD Candidate in Social Complexity Sciences."
   favicon = "/img/favicon.ico"
-  logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["blog", "project", "talk"]
+  logo = "/img/MO-3.png"
+  mainSections = ["project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -48,7 +48,7 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "sky"
+  theme = "water"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -88,12 +88,12 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
-  [[params.social]]
-      icon      = "facebook-square" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
-  [[params.social]]
+      url       = "https://github.com/melanieoyarzun"
+#  [[params.social]]
+#      icon      = "facebook-square" # icon name without the 'fa-'
+#      icon_pack = "fab"
+#      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
+#  [[params.social]]
 #      icon      = "instagram" # icon name without the 'fa-'
 #      icon_pack = "fab"
 #      url       = "https://www.instagram.com/explore/tags/apero/"
@@ -108,11 +108,26 @@ enableEmoji = true
   [[params.social]]
       icon      = "orcid" # icon name without the 'fa-'
       icon_pack = "ai"
-      url       = "http://orcid.org/0000-0002-8082-1890"
+      url       = "https://orcid.org/0000-0002-4869-3956"
   [[params.social]]
       icon      = "rss" # icon name without the 'fa-'
       icon_pack = "fas"
       url       = "/blog/index.xml"
+ [[params.social]]
+      icon      = "google-scholar" # icon name without the 'fa-'
+      icon_pack = "ai"
+      url       = "https://scholar.google.cl/citations?user=5-t0IgkAAAAJ&hl=es"
+ [[params.social]]
+      icon      = "youtube" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://www.youtube.com/c/MelanieOyarzun"
+
+
+ [[params.social]]
+      icon      = "envelope" # icon name without the 'fa-'
+      icon_pack = "fa"
+      url       = "mailto: moyarzunw@udd.cl"
+      
 
 [taxonomies]
   category = "categories"
@@ -146,7 +161,7 @@ enableEmoji = true
 #    title = "A collection"
 #    url = "/collection/"
 #    weight = 5
-  [[menu.header]]
+#  [[menu.header]]
 #    name = "Elements"
 #    title = "Element Page"
 #    url = "/elements/"
