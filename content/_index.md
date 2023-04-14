@@ -5,7 +5,7 @@ action_type: text
 description: 
 image_left: false
 images:
-- img/IMG_7259.jpeg
+- img/IMG_7259_small.jpg
 show_action_link: true
 show_social_links: true
 subtitle: PhD candidate in Social Complexity Sciences
