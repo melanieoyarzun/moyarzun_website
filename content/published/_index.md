@@ -13,11 +13,11 @@ cascade:
 description: |
   This is a list of recent peer reviewed publications.
 layout: list
-show_author_byline: tre
+show_author_byline: true
 show_button_links: true
-show_post_date: true
+show_post_date: false
 show_post_thumbnail: true
-show_post_time: true
+show_post_time: false
 sidebar:
   author: Melanie Oyarzun
   description: "This is a list of recent peer reviewed publications.n"
