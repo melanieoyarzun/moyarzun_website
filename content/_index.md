@@ -1,15 +1,15 @@
 ---
-action_label: Read More &rarr;
+action_label: more &rarr;
 action_link: /about
 action_type: text
 description: 
-image_left: true
+image_left: false
 images:
 - img/peeps_avatar.png
 show_action_link: true
 show_social_links: true
 subtitle: PhD candidate in Social Complexity Sciences
-text_align_left: false
+text_align_left: true
 title: Melanie Oyarzun
 type: home
 ---

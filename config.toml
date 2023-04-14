@@ -33,7 +33,7 @@ enableEmoji = true
   description = "PhD Candidate in Social Complexity Sciences."
   favicon = "/img/favicon.ico"
   logo = "/img/MO-3.png"
-  mainSections = ["project", "talk"]
+  mainSections = ["published"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -148,14 +148,22 @@ enableEmoji = true
 #    weight = 2
 #  [[menu.header]]
 #    name = "Projects"
-#    title = "Project Portfolio"
+#    title = "Projects"
 #    url = "/project/"
 #    weight = 3
-#  [[menu.header]]
-#    name = "Talks"
-#    title = "Talks"
-#    url = "/talk/"
-#    weight = 4
+
+  [[menu.header]]
+    name = "Publications"
+    title = "Publications"
+    url = "/published/"
+    weight = 4
+    
+    [[menu.header]]
+    name = "Talks"
+    title = "Talks"
+    url = "/talk/"
+    weight = 5
+    
 #  [[menu.header]]
 #    name = "A collection"
 #    title = "A collection"

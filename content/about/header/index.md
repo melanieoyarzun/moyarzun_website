@@ -3,7 +3,7 @@
 text_align_right: false
 show_title_as_headline: false
 headline: |
-  Hi there! I´m Melanie. |
+  Hi there! I´m Melanie.
   Nice to meet you.
 ---
 
