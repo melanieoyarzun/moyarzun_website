@@ -30,7 +30,7 @@ enableEmoji = true
 [params]
   orgName = "CICS-UDD"
   orgLocal = "Chile"
-  description = "PhD Candidate in Social Complexity Sciences."
+  description = "Ph.D Candidate in Social Complexity Sciences."
   favicon = "/img/favicon.ico"
   logo = "/img/MO-3.png"
   mainSections = ["published"]
@@ -100,7 +100,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/mel2kil"
+      url       = "https://twitter.com/mel2kill"
   [[params.social]]
       icon      = "impactstory" # icon name without the 'fa-'
       icon_pack = "ai"

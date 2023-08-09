@@ -8,7 +8,8 @@ images:
 - img/IMG_7259_small.jpg
 show_action_link: true
 show_social_links: true
-subtitle: PhD candidate in Social Complexity Sciences
+subtitle: Ph.D candidate in Social Complexity Sciences
+text: prueba
 text_align_left: true
 title: Melanie Oyarzun
 type: home
