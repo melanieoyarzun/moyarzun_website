@@ -3,8 +3,8 @@
 text_align_right: false
 show_title_as_headline: false
 headline: |
-  I´m Melanie!    
-  Nice to meet you!
+  I´m Melanie!  
+  Nice to meet you
 ---
 
 <!-- this is a subheadline -->
