@@ -8,11 +8,9 @@ number_categories: 0 # set to zero to exclude
 show_intro: true
 intro: |
 
-My background is in Applied Microeconomics, particularly impact evaluation with econometric tools. I have a Master's in Economics from Universidad Católica de Chile (PUC) and previously studied Commercial Engineering at Universidad Católica de Valparaíso (PUCV), which is similar to a double major in Economics and Business Administration.
-
-I used to teach Introductory Economics, Microeconomics, and Game Theory at PUCV between 2013 and 2019 before starting my Ph.D. I have also taught courses in the Data Science department at Universidad del Desarrollo (UDD).
-
-In addition, I enjoy drawing, reading fantasy and comics, drinking tea, and spending time with my family and my pet rabbit, Pepper. 
+  My background is in Applied Microeconomics, particularly impact evaluation with econometrics tools. I have a Masters in Economics @ Universidad Católica de Chile (PUC) and previously studied Commercial Engeneering @ Universidad Católica de Valparaíso (PUCV), that is similar to double major in Economics and Business Administration.
+  I used to taught Introductory Economics, Microeconomics and Game Theory at PUCV between 2013 and 2019 before my Phd, and have taught courses in the Data Science department at Universidad del Desarrollo (UDD).
+  I also enjoy drawing, reading fantasy and comics, drinking tea and playing with my pet rabbit Pepper. 
   
 show_outro: false
 outro: |
