@@ -3,16 +3,11 @@
 text_align_right: false
 show_title_as_headline: false
 headline: |
-  Hi there! I´m Melanie.
-  Nice to meet you.
+  Hello there! I´m Melanie.
 ---
 
 <!-- this is a subheadline -->
 
-My name is Melanie Oyarzun, I'm from Chile and currently studyng Phd in Social Complexity Sciences \@ Universidad del Desarollo in the [Center for Social Complexity Sciences](https://complejidadsocial.udd.cl) (CICS in spanish).
+I'm a Chilean 🇨🇱 researcher, working in the computational social science space. Currently, I live in Budapest, where I am doing a postdoc at the [Center for Collective Learning](https://centerforcollectivelearning.org/) within the Center for Advanced Studies at Corvinus University.
 
-Currently, I'm studyng social interaction patterns in students' educational experience with a computational social sciences approach. My supervisor is [Cristian Candia](https://linktr.ee/crcandiav).
-
-We combine experimental game theory, network and quantitative data analysis methods to study social interaction, cooperation and reciprocity in classroom environments.
-
-Since November I've been in Toulouse, France as Visting PhD \@  [Center for Collective Learning](https://centerforcollectivelearning.org) working with [Cesar Hidalgo](https://cesarhidalgo.com) and [Mariana Macedo](https://sites.google.com/view/marianagmmacedo/home) in a couple of projects.
+My research focuses on social relations and cooperation within educational settings and the social externalities of education. I also explore other interesting topics such as collective memory and urban inequality.
