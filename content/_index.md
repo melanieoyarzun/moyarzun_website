@@ -3,14 +3,15 @@ action_label: more &rarr;
 action_link: /about
 action_type: text
 description: 
-image_left: false
+image_left: true
 images:
 - img/IMG_7259_small.jpg
 show_action_link: true
 show_social_links: true
-subtitle: Exploring the world thorugh research & data. 
+subtitle: Exploring the world thorugh data. 
 description: |
- Hello! I'm a Chilean 🇨🇱 researcher, working in the computational social science space. \n
+ Hello! I'm a Chilean 🇨🇱 researcher, working in the computational social science space. 
+
  Currently, I live in Budapest, where I am doing a postdoc at the [Center for Collective Learning](https://centerforcollectivelearning.org/) within the Center for Advanced Studies at Corvinus University.
 
 text_align_left: true
