@@ -30,7 +30,7 @@ enableEmoji = true
 [params]
   orgName = "CICS-UDD"
   orgLocal = "Chile"
-  description = "Ph.D Candidate in Social Complexity Sciences."
+  description = "Postdoc Reseracher at CCL- Budapest"
   favicon = "/img/favicon.ico"
   logo = "/img/MO-3.png"
   mainSections = ["published"]
@@ -101,18 +101,18 @@ enableEmoji = true
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://twitter.com/mel2kill"
-  [[params.social]]
-      icon      = "impactstory" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "https://impactstory.org/u/0000-0002-8082-1890"
-  [[params.social]]
-      icon      = "orcid" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "https://orcid.org/0000-0002-4869-3956"
-  [[params.social]]
-      icon      = "rss" # icon name without the 'fa-'
-      icon_pack = "fas"
-      url       = "/blog/index.xml"
+#  [[params.social]]
+#      icon      = "impactstory" # icon name without the 'fa-'
+#      icon_pack = "ai"
+#      url       = "https://impactstory.org/u/0000-0002-8082-1890"
+#  [[params.social]]
+#      icon      = "orcid" # icon name without the 'fa-'
+#      icon_pack = "ai"
+#      url       = "https://orcid.org/0000-0002-4869-3956"
+#  [[params.social]]
+#      icon      = "rss" # icon name without the 'fa-'
+#      icon_pack = "fas"
+#      url       = "/blog/index.xml"
  [[params.social]]
       icon      = "google-scholar" # icon name without the 'fa-'
       icon_pack = "ai"
@@ -153,7 +153,7 @@ enableEmoji = true
 #    weight = 3
 
   [[menu.header]]
-    name = "Publications"
+    name = "Research"
     title = "Publications"
     url = "/published/"
     weight = 4
