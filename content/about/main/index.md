@@ -1,16 +1,20 @@
 ---
 
 ## Configure page content in wide column
-title: "More about me:" # leave blank to exclude
+title: "A bit more about me:" # leave blank to exclude
 number_featured: 0 # pulling from mainSections in config.toml
 use_featured: false # if false, use most recent by date
 number_categories: 0 # set to zero to exclude
 show_intro: true
 intro: |
+ 
+  I studied a PhD in Social Complexity Sciences in [Universidad del Desarrollo (UDD)](https://complejidadsocial.udd.cl/) in Chile. There I focused on on applying a computational social science framework to study social interactions within educational settings, blending experimental game theory, social network analysis, and regression methods.
 
-  My background is in Applied Microeconomics, particularly impact evaluation with econometrics tools. I have a Masters in Economics @ Universidad Católica de Chile (PUC) and previously studied Commercial Engeneering @ Universidad Católica de Valparaíso (PUCV), that is similar to double major in Economics and Business Administration.
-  I used to taught Introductory Economics, Microeconomics and Game Theory at PUCV between 2013 and 2019 before my Phd, and have taught courses in the Data Science department at Universidad del Desarrollo (UDD).
-  I also enjoy drawing, reading fantasy and comics, drinking tea and playing with my pet rabbit Pepper. 
+  I have a background in Applied Microeconomics, particularly impact evaluation using econometric tools. I hold a Masters in Economics @ Universidad Católica de Chile (PUC) and previously studied Commercial Engeneering @ Universidad Católica de Valparaíso (PUCV).
+
+  Before my PhD I taught Introductory Economics, Microeconomics and Game Theory at PUCV between 2013 and 2019 , and have taught courses in the Data Science department at Universidad del Desarrollo (UDD).
+  
+  Outside of work, I enjoy drawing, reading fantasy, and comics.
   
 show_outro: false
 outro: |
