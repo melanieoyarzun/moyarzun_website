@@ -11,7 +11,7 @@ cascade:
     text_link_label: View recent publications
     text_link_url: /published/
 description: |
-  This is a list of recent peer reviewed publications.
+  This is a list reserach projects and publications.
 layout: list
 show_author_byline: true
 show_button_links: true
@@ -19,8 +19,8 @@ show_post_date: false
 show_post_thumbnail: true
 show_post_time: false
 sidebar:
-  author: Melanie Oyarzun
-  description: "This is a list of recent peer reviewed publications.n"
+  author: MOW
+  description: "This is a list of recent peer reviewed publications."
   show_sidebar_adunit: false
   text_link_label: Subscribe via RSS
   text_link_url: /published/index.xml
