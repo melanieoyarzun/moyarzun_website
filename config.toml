@@ -32,7 +32,7 @@ enableEmoji = true
   orgLocal = "Chile"
   description = "Postdoc Reseracher at CCL- Budapest"
   favicon = "/img/favicon.ico"
-  logo = "/img/MO-3.png"
+  logo = "/img/melanieoname.png"
   mainSections = ["published"]
   navallcaps = true
   # show/hide social icons in site header & footer
