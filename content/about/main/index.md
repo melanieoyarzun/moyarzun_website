@@ -7,7 +7,8 @@ use_featured: false # if false, use most recent by date
 number_categories: 0 # set to zero to exclude
 show_intro: true
 intro: |
- My research focuses on social relations and cooperation within educational settings and the social externalities of education. I also explore other interesting topics such as collective memory and urban inequality.
+ 
+  My research focuses on social relations and cooperation within educational settings and the social externalities of education. I also explore other interesting topics such as collective memory and urban inequality.
 
   I studied a PhD in Social Complexity Sciences in [Universidad del Desarrollo (UDD)](https://complejidadsocial.udd.cl/) in Chile. There I focused on on applying a computational social science framework to study social interactions within educational settings, blending experimental game theory, social network analysis, and regression methods.
 
