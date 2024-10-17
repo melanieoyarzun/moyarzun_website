@@ -8,7 +8,7 @@ images:
 - img/IMG_7259_small.jpg
 show_action_link: true
 show_social_links: true
-subtitle: Ph.D candidate in Social Complexity Sciences
+subtitle: Explore the world thorugh data.
 text: prueba
 text_align_left: true
 title: Melanie Oyarzun
