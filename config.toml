@@ -158,11 +158,11 @@ enableEmoji = true
     url = "/published/"
     weight = 4
     
-#    [[menu.header]]
-#    name = "Talks"
-#    title = "Talks"
-#    url = "/talk/"
-#    weight = 5
+    [[menu.header]]
+    name = "Talks"
+    title = "Talks"
+    url = "/talk/"
+    weight = 5
     
 #  [[menu.header]]
 #    name = "A collection"
