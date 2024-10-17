@@ -7,7 +7,7 @@ show_social_links: true # specify social accounts in site config
 #audio_link_label: "¿Cómo decir mi nombre?:" # leave blank to exclude
 link_list_label:  # bookmarks, elsewhere, etc.
 link_list:
-intro: | 
+text: | 
     test
 
 ---
