@@ -3,7 +3,7 @@ action_label: more &rarr;
 action_link: /about
 action_type: text
 description: 
-image_left: true
+image_left: false
 images:
 - img/IMG_7259_small.jpg
 show_action_link: true
