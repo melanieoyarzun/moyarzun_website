@@ -1,7 +1,7 @@
 ---
-author: Melanie Oyarzun
+author: Melanie Oyarzun W
 cascade:
-  author: Melanie Oyarzun
+  author: Melanie Oyarzun W
   show_author_byline: false
   show_comments: false
   show_post_date: false
@@ -25,7 +25,7 @@ sidebar:
   text_link_label: Subscribe via RSS
   text_link_url: /published/index.xml
   title: Publications
-  excerpt: A list of recent peer reviewd publications
+  excerpt: A list of research and publications.
 title: Publications
 
 ---
