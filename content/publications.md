@@ -6,7 +6,7 @@ show_title_as_headline: true
 title: Peer reviewed publications
 ---
 
-A list of publications in peer reviewed journals.
+A list of publications in peer reviewed journals. Revisando si es este:
 
 -   Reciprocity heightens academic performance in elementary school students
     (Cristian Candia, **Melanie Oyarzun**, Victor Landaeta, Tamara Yaikin, Cecilia Monge, César Hidalgo, and Carlos Rodriguez-Sickert.)
