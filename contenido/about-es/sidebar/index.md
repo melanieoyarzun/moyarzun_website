@@ -1,7 +1,7 @@
 ---
 ## Configure sidebar content in narrow column
 author: "Melanie Oyarzun"
-role: "Investigadora en [CCL - Budapest](https://centerforcollectivelearning.org)"
+role: "Chilean Researcher @ [CCL - Budapest](https://centerforcollectivelearning.org)"
 avatar_shape: circle # circle, square, rounded, leave blank to exclude
 show_social_links: true # specify social accounts in site config
 #audio_link_label: "¿Cómo decir mi nombre?:" # leave blank to exclude

@@ -8,11 +8,11 @@ images:
 - img/IMG_7259_small.jpg
 show_action_link: true
 show_social_links: true
-subtitle: Explorando el mundo, a través de los datos. 
+subtitle: Exploring the world thorugh data. 
 description: |
- Hola! Soy una investigadora chilena 🇨🇱 trabajando en ciencias sociales computacionales.
+ Hello! I'm a Chilean 🇨🇱 researcher, working in the computational social science space. 
 
- Actualmente vivo en Budapest, donde realizo un postdoc en el [Center for Collective Learning](https://centerforcollectivelearning.org/) delCenter for Advanced Studies de la Universidad Corvinus.
+ Currently, I live in Budapest, where I am doing a postdoc at the [Center for Collective Learning](https://centerforcollectivelearning.org/) within the Center for Advanced Studies at Corvinus University.
 
 text_align_left: true
 title: Melanie Oyarzun

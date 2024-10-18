@@ -19,12 +19,12 @@ enableEmoji = true
 [languages]
   [languages.en]
     languageName = "English"
-    contentDir = "content"  # Existing content for English
+    contentDir = "content"
     weight = 1
   
   [languages.es]
     languageName = "Español"
-    contentDir = "contenido"  # New folder for Spanish content
+    contentDir = "contentenido"
     weight = 2
 
 
