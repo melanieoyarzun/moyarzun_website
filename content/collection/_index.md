@@ -1,11 +1,11 @@
 ---
-author: Alison Hill
+author: Melanie O
 cascade:
   layout: single-series
   sidebar:
     author: Alison Hill
-    description: "Sometimes you want a souped-up series- a bundle of related pages
-      \nmeant to be read in sequence. This section is like a blog series, \nminus
+    description: "A place for some teaching materials I have collected 
+      \nthrough the years. This section is like a blog series, \nminus
       the blog.\n"
     show_author_byline: true
     show_post_date: true
