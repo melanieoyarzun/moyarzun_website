@@ -28,7 +28,7 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "CICS-UDD"
+  orgName = "MOW"
   orgLocal = "Chile"
   description = "Postdoc Reseracher at CCL- Budapest"
   favicon = "/img/favicon.ico"
@@ -158,17 +158,17 @@ enableEmoji = true
     url = "/published/"
     weight = 4
     
-    [[menu.header]]
-    name = "Talks"
-    title = "Talks"
-    url = "/talk/"
-    weight = 5
+#    [[menu.header]]
+#    name = "Talks"
+#    title = "Talks"
+#    url = "/talk/"
+#    weight = 5
     
-  [[menu.header]]
-    name = "Teaching"
-    title = "Teaching"
-    url = "/collection/"
-    weight = 5
+#  [[menu.header]]
+#    name = "Teaching"
+#    title = "Teaching"
+#    url = "/collection/"
+#    weight = 5
 
 #  [[menu.header]]
 #    name = "Elements"
@@ -188,11 +188,11 @@ enableEmoji = true
     title = "License"
     url = "/license/"
     weight = 1
-  [[menu.footer]]
-    name = "Contact"
-    title = "Contact form"
-    url = "/contact/"
-    weight = 2
+#  [[menu.footer]]
+#    name = "Contact"
+#    title = "Contact form"
+#    url = "/contact/"
+#    weight = 2
 #  [[menu.footer]]
 #    name = "Contributors"
 #    title = "Contributors"
