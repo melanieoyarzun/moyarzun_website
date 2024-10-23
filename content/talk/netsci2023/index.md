@@ -12,4 +12,11 @@ subtitle: Conferencia
 title: Netsci 2024
 ---
 
+# Probando que puedo poner aca
 
+Veamos que tal No se muy bien
+
+-   ajajja
+-   be
+
+![Foto](poster2_ntesci2023.png)
