@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Melanie Oyarzún</title>
+    <link>https://moyarzun.netlify.app/published/</link>
+    <description>Recent content in Research on Melanie Oyarzún</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://moyarzun.netlify.app/published/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autism shapes social integration and reciprocity in elementary classrooms</title>
+      <link>https://moyarzun.netlify.app/published/autism-and-reciprocity/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://moyarzun.netlify.app/published/autism-and-reciprocity/</guid>
+      <description>Research question How does neurodevelopmental diversity — specifically autism — shape the structure of social networks and reciprocal peer relationships in elementary classrooms?
+Main contribution This paper introduces a novel ecological approach using experimental game theory to quantify social integration and reciprocity among autistic children in real classroom settings. Social networks were constructed from children&amp;rsquo;s peer selections in a distributive game played on networked tablets, capturing revealed social preferences rather than self-reports.</description>
+    </item>
+    
+    <item>
+      <title>School schedules and mothers&#39; employment</title>
+      <link>https://moyarzun.netlify.app/published/mothers-labor-force/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://moyarzun.netlify.app/published/mothers-labor-force/</guid>
+      <description>Research question What happens to mothers&amp;rsquo; labor outcomes when schools move from half-day to full-day schedules?
+Main contribution Using panel data and quasi-experimental variation from an education reform in Chile, we find positive effects on labor force participation, employment, hours worked, and months worked.
+Published in Review of Economics of the Household, 2023.
+Abstract Women&amp;rsquo;s employment plays an important role in household well-being, and among mothers, lack of child care is one of the main reasons for not working and not seeking employment.</description>
+    </item>
+    
+    <item>
+      <title>Reciprocity heightens academic performance in elementary school students</title>
+      <link>https://moyarzun.netlify.app/published/reciprocity/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://moyarzun.netlify.app/published/reciprocity/</guid>
+      <description>Research question How are students&amp;rsquo; social reciprocity patterns related to academic achievement?
+Main contribution Using data from 855 students across 14 public schools in Chile, we show that reciprocity in peer relationships is associated with better grades, including in a difference-in-differences design across semesters.
+Published in Heliyon (Cell Press), 2022.
+Abstract Social relationships are pivotal for human beings. Yet, we still lack a complete understanding of the types and conditions of social relationships that facilitate learning among children.</description>
+    </item>
+    
+  </channel>
+</rss>

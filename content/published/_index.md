@@ -1,33 +1,34 @@
 ---
-author: Melanie Oyarzun W
+author: Melanie Oyarzun
 cascade:
-  author: Melanie Oyarzun W
+  author: Melanie Oyarzun
   show_author_byline: false
   show_comments: false
-  show_post_date: false
+  show_post_date: true
   show_post_time: false
   sidebar:
     show_sidebar_adunit: false
-    text_link_label: View recent publications
-    text_link_url: /published/
+    text_link_label: Download my CV
+    text_link_url: /files/CV_MOW_March2026.pdf
 description: |
-  This is a list reserach projects and publications.
+  Peer-reviewed papers and research projects with context, storytelling, and reproducibility notes.
 layout: list
-show_author_byline: true
+show_author_byline: false
 show_button_links: true
-show_post_date: false
+show_post_date: true
 show_post_thumbnail: true
 show_post_time: false
 sidebar:
   author: MOW
-  description: "This is a list of recent peer reviewed publications."
+  description: "Research outputs: papers, context, and materials."
   show_sidebar_adunit: false
-  text_link_label: Subscribe via RSS
-  text_link_url: /published/index.xml
-  title: Publications
-  excerpt: A list of research and publications.
-title: Publications
-
+  text_link_label: Visit Google Scholar
+  text_link_url: https://scholar.google.cl/citations?user=5-t0IgkAAAAJ&hl=es
+  title: Research
+  excerpt: Publications and research notes
+title: Research
 ---
 
-** No content below YAML for the talk _index. This file provides front matter for the listing page layout and sidebar content. It is also a branch bundle, and all settings under `cascade` provide front matter for all pages inside talk/. You may still override any of these by changing them in a page's front matter.**
+My research sits at the intersection of social networks, cooperation, inequality, and education policy. I combine computational social science with applied microeconometrics and experimental methods.
+
+Each entry here includes the research question, main findings, and a storytelling section with the broader context. For a full list see [Google Scholar](https://scholar.google.cl/citations?user=5-t0IgkAAAAJ&hl=es) or [ORCID](https://orcid.org/0000-0002-4869-3956).

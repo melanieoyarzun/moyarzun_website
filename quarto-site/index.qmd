@@ -1,0 +1,32 @@
+---
+title: "Melanie Oyarzun"
+subtitle: "Social networks, education, and computational social science"
+image: assets/img/IMG_7259_small.jpg
+image-alt: "Melanie Oyarzun portrait"
+page-layout: full
+format:
+  html:
+    toc: false
+about:
+  template: solana
+  image-width: 26em
+  links:
+    - icon: github
+      href: https://github.com/melanieoyarzun
+    - icon: youtube
+      href: https://www.youtube.com/c/MelanieOyarzun
+    - icon: twitter
+      href: https://twitter.com/mel2kill
+    - icon: envelope
+      href: mailto:melanie.oyarzun@gmail.com
+    - text: Scholar
+      href: https://scholar.google.cl/citations?user=5-t0IgkAAAAJ&hl=es
+resources:
+  - styles.css
+---
+
+I am a Chilean researcher based in Budapest, currently a **Postdoctoral Research Fellow** at the [Center for Collective Learning](https://centerforcollectivelearning.org/) (Corvinus University of Budapest).
+
+My work combines social network analysis, applied microeconometrics, and experimental methods to study social integration, inequality, and learning contexts.
+
+[Explore my research &rarr;](research/index.qmd){.about-links .subtitle}

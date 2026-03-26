@@ -1,12 +1,8 @@
 ---
-## Configure header of page
 text_align_right: false
 show_title_as_headline: false
 headline: |
-  Hello there! I´m Melanie.
+  Hi, I am Melanie.
 ---
 
-<!-- this is a subheadline -->
-
-
-
+Researcher in computational social science, originally from Chile and currently based in Budapest.

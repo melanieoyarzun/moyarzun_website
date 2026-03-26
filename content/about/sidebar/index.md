@@ -1,15 +1,20 @@
 ---
-## Configure sidebar content in narrow column
 author: "Melanie Oyarzun"
-role: "Chilean Researcher @ [CCL - Budapest](https://centerforcollectivelearning.org) and [CRiSSLab](https://criss-lab.com)"
-avatar_shape: circle # circle, square, rounded, leave blank to exclude
-show_social_links: true # specify social accounts in site config
-#audio_link_label: "¿Cómo decir mi nombre?:" # leave blank to exclude
-link_list_label:  # bookmarks, elsewhere, etc.
+role: "Postdoctoral Research Fellow @ [Center for Collective Learning](https://centerforcollectivelearning.org)"
+avatar_shape: circle
+show_social_links: true
+link_list_label: Quick links
 link_list:
-text: | 
-    test
-
+  - name: Teaching & Media
+    url: /teaching/
+  - name: Educational YouTube
+    url: https://www.youtube.com/@MelanieOyarzun
+  - name: Download CV
+    url: /files/CV_MOW_March2026.pdf
+  - name: Google Scholar
+    url: https://scholar.google.cl/citations?user=5-t0IgkAAAAJ&hl=es
+  - name: Email me
+    url: mailto:melanie.oyarzun@gmail.com
 ---
 
 ** index doesn't contain a body, just front matter above.
