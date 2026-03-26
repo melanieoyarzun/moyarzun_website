@@ -1,0 +1,17 @@
+---
+title: CV
+---
+
+
+-   [Download CV (March 2026)](assets/files/CV_MOW_March2026.pdf)
+-   [Google Scholar](https://scholar.google.cl/citations?user=5-t0IgkAAAAJ&hl=es)
+
+## Current role
+
+Postdoctoral Research Fellow, Corvinus University of Budapest (2024-present)
+
+## Education
+
+-   PhD in Social Complexity Sciences, Universidad del Desarrollo
+-   MSc in Economics, Pontificia Universidad Catolica de Chile
+-   BSc in Business Administration, Pontificia Universidad Catolica de Valparaiso

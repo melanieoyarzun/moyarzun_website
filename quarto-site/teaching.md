@@ -1,0 +1,25 @@
+---
+title: Teaching & Educational Media
+---
+
+
+I teach and produce educational material on data science, causal inference, and applied social research.
+
+## Teaching
+
+### Universidad del Desarrollo (2020-2022)
+
+-   Causal Inference for Data Science
+-   Workshop in Time Series Analysis
+-   Data Analysis
+
+### Pontificia Universidad Catolica de Valparaiso (2014-2019)
+
+-   Introduction to Economics
+-   Microeconomics
+-   Game Theory
+-   Econometrics
+
+## Educational media
+
+-   [YouTube: Melanie Oyarzun](https://www.youtube.com/c/MelanieOyarzun)

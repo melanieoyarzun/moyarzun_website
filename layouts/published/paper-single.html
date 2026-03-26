@@ -1,0 +1,54 @@
+{{ define "main" }}
+
+{{/* ── Hero image ────────────────────────────────────────────────────────
+     Priority: header.* → featured.*
+     If neither exists, page renders without a hero.
+*/}}
+{{ $hero := .Resources.GetMatch "header*" }}
+{{ if not $hero }}{{ $hero = .Resources.GetMatch "featured*" }}{{ end }}
+
+{{ if $hero }}
+<div class="paper-hero"
+     style="background-image: url('{{ $hero.RelPermalink }}');">
+  <div class="paper-hero-text mw7 center ph4">
+    <h1 class="paper-hero-title">{{ .Title }}</h1>
+    {{ if .Params.subtitle }}
+      <p class="paper-hero-subtitle">{{ .Params.subtitle }}</p>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        {{ if not $hero }}
+          <h1 class="f1 lh-solid measure-narrow mb3 fw4">{{ .Title }}</h1>
+          {{ if .Params.subtitle }}<h4 class="f4 mt0 mb4 lh-title measure">{{ .Params.subtitle }}</h4>{{ end }}
+        {{ end }}
+
+        {{ if .Params.links }}
+        <div class="ph0 pt4">
+          {{ partial "shared/btn-links.html" . }}
+        </div>
+        {{ end }}
+      </header>
+
+      <section class="post-body pt2 pb4">
+        {{ .Content }}
+        {{ .Scratch.Set "details" "closed" }}
+        {{ partial "shared/post-details.html" . }}
+      </section>
+
+      <footer class="post-footer">
+        {{ partial "shared/post-pagination.html" . }}
+      </footer>
+    </article>
+    {{ if .Params.show_comments }}
+      {{ partial "shared/comments.html" . }}
+    {{ end }}
+  </section>
+</main>
+
+{{ end }}

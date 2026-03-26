@@ -1,19 +1,28 @@
 ---
-author: Patricia Soto-Icaza, Melanie Oyarzun, Tamara Yaikin, Mirla Arcos-Polanco, Cristian Candia, Carlos Rodríguez-Sickert & Pablo Billeke
+author: "Patricia Soto-Icaza, Melanie Oyarzún, Tamara Yaikin, Mirla Arcos-Polanco, Cristian Candia, Carlos Rodríguez-Sickert & Pablo Billeke"
 categories:
 - article
 date: "2025-01-01"
 draft: false
 excerpt: Using experimental game theory to quantify social integration and reciprocity, we find autistic children occupy more peripheral positions in classroom networks and engage less in reciprocal relationships.
 featured: true
-layout: single
+layout: paper-single
 links:
 - icon: doi
   icon_pack: ai
-  name: Journal link (Open Access)
+  name: Journal (Open Access)
   url: https://doi.org/10.1038/s41598-025-24190-6
+- icon: osf
+  icon_pack: ai
+  name: OSF
+  url: https://osf.io/bpm5g/
+- icon: image
+  icon_pack: fa
+  name: Poster
+  url: "/published/autism-and-reciprocity/poster-eusn2024.jpeg"
 show_post_time: false
-subtitle: Scientific Reports · 2025 · Open Access
+show_author_byline: false
+subtitle: "Scientific Reports · 2025 · Open Access"
 tags:
 - social networks
 - autism
@@ -23,25 +32,35 @@ tags:
 title: Autism shapes social integration and reciprocity in elementary classrooms
 ---
 
-## Research question
+<div class="paper-citation-box">
+<div class="citation-text">
+Soto-Icaza, P., Oyarzún, M., Yaikin, T., Arcos-Polanco, M., Candia, C., Rodríguez-Sickert, C., & Billeke, P. (2025). Autism shapes social integration and reciprocity in elementary classrooms. <em>Scientific Reports</em>, 15, 40473. <a href="https://doi.org/10.1038/s41598-025-24190-6">https://doi.org/10.1038/s41598-025-24190-6</a>
+</div>
+<div class="citation-metrics">
+<div class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1038/s41598-025-24190-6"></div>
+</div>
+</div>
 
-How does neurodevelopmental diversity — specifically autism — shape the structure of social networks and reciprocal peer relationships in elementary classrooms?
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 
-## Main contribution
+---
 
-This paper introduces a novel ecological approach using **experimental game theory** to quantify social integration and reciprocity among autistic children in real classroom settings. Social networks were constructed from children's peer selections in a distributive game played on networked tablets, capturing revealed social preferences rather than self-reports.
+<div class="paper-lede">
+<div class="paper-tldr">
+<span class="tldr-label">TL;DR</span>
+We used <em>El juego de las estrellas</em> — a behavioral game on networked tablets — to map peer social networks in 26 Chilean classrooms. Autistic children were significantly more peripheral and less involved in reciprocal relationships than their peers, while children with ADHD showed no significant differences.
+</div>
+<div class="paper-significance">
+<div class="significance-label">Why it matters</div>
+School inclusion is usually measured by attendance, not by whether children are actually woven into the social fabric of their class. This study provides a behaviorally grounded, ecologically valid measure of social integration — one that reveals stark inequalities invisible to conventional assessments, and points to the need to rethink how we design inclusive classrooms.
+</div>
+</div>
 
-Across 26 classrooms in six Chilean elementary schools (625 students, ages 6–11), the findings show that:
-
-- Autistic children occupy **more peripheral positions** in classroom social networks compared to non-autistic peers and children with other special educational needs (SEN)
-- Autistic children **engage less in reciprocal peer relationships**
-- Children with SEN (excluding autism) also show lower centrality and reciprocity compared to those without SEN
-
-## Published in
-
-**Scientific Reports**, 2025, 15:40473 · [Open Access](https://doi.org/10.1038/s41598-025-24190-6)
+---
 
 ## Abstract
+
+
 
 During childhood, schools are crucial environments for social interactions, making them ideal for evaluating the inclusion of students with special educational needs (SEN). In particular, autistic children often face challenges in peer relationships, yet the impact of autism on social dynamics in schools is not well understood. To address this issue, we examined social dynamics within elementary schools using a novel ecological approach based on experimental game theory to quantify social integration and reciprocity among autistic children.
 
@@ -49,19 +68,110 @@ Social networks were constructed for each classroom based on the children's peer
 
 Our analysis showed that autistic children and children with SEN were significantly less central and less involved in reciprocal peer relationships compared to children without SEN. These findings highlight the need for support in promoting social inclusion while also emphasizing the importance of exploring the intersection of neurodevelopmental conditions and social dynamics.
 
+---
+
+## How the study works
+
+### Step 1 — The game: *El juego de las estrellas*
+
+Most studies of peer relationships rely on asking children to name their friends. The problem is that children don't always say what they actually do — especially when it comes to who they include or exclude. We took a different approach: rather than asking, we *observed*.
+
+Each child played a short game on a tablet at their school desk. Everyone in the class participated at the same time, and crucially, everyone knew who was playing — so choices had real social weight.
+
+<div class="paper-gif-wrap">
+<img src="gif-stars.gif" alt="El juego de las estrellas gameplay animation" />
+<p class="paper-gif-caption">The Stars Game running on classroom tablets in real time.</p>
+</div>
+
+{{< figure src="fig1_starsgame.png" alt="Two stages of El juego de las estrellas: A) classmate selection, B) star allocation" caption="**A)** Each child first picks up to 10 classmates they want to play with. **B)** Then distributes 15 stars among their chosen classmates — the more stars sent to someone, the stronger the social preference." class="paper-figure" >}}
+
+---
+
+### Step 2 — Mapping who connects with whom
+
+From each child's choices, we built a **social network map** of the classroom — essentially a diagram showing who gives attention and resources to whom. Two types of connection were recorded:
+
+<div class="network-explainer">
+<div class="network-card">
+<div class="network-card-title">🔗 Selection network</div>
+Who chose to play with whom. An arrow from A to B means A included B in their game. This tells us who is on each child's social radar — even children that nobody chose appear here, making exclusion visible.
+</div>
+<div class="network-card">
+<div class="network-card-title">⭐ Stars allocation network</div>
+Who sent stars to whom, and how many. This captures intensity — a child who receives many stars from many classmates (high in-strength) is highly valued socially; one who receives few, or only from one or two peers, is in a more fragile position.
+</div>
+</div>
+
+{{< figure src="examplenet.png" alt="Game interface and example classroom network with ASD/SEN/noSEN groups" caption="Example classroom network from the study. Each dot is a child: teal = autistic (ASD), orange = other special educational needs (SEN), purple = no SEN. Larger dots received more stars; thicker lines mean more stars were sent. Autistic children (teal) are visibly smaller and sit closer to the edges." class="paper-figure" >}}
+
+---
+
+### Step 3 — Does the game measure what it should?
+
+Before drawing conclusions, we checked whether the game was actually picking up real social dynamics — or just random behavior. We compared each child's game score against traditional peer surveys where children separately rated who they'd like to spend time with, who they avoid, and who they consider a friend.
+
+{{< figure src="fig3_nominationcorrelations.png" alt="Correlations between game-based centrality and peer nomination measures" caption="How many stars a child received in the game correlates strongly with how many peers nominated them as a friend (R = 0.65–0.76), and negatively with how many peers said they would avoid them (R = −0.42 to −0.49). The game is measuring the same thing as traditional friendship surveys." class="paper-figure" >}}
+
+Children who received more stars in the game (higher in-strength centrality) were consistently the ones that classmates named as friends in the survey — and those who received few stars were more likely to be named as someone peers avoid. The behavioral measure tracks real social dynamics.
+
+---
+
+## Key findings
+
+### Finding 1 — Autistic children are more peripheral in classroom networks
+
+The most basic question is: how often do classmates choose to include an autistic child? We measured this in two ways — how many peers selected them, regardless of stars (*in-degree*), and how many stars they received in total (*in-strength*). Both are measures of social centrality and both tell the same story.
+
+{{< figure src="fig4_centralitysd.png" alt="Boxplots of in-degree and in-strength centrality by group: ASD, SEN (no ASD), without SEN" caption="How often each group was chosen — in-degree (left) — and how many stars they received — in-strength (right) — both expressed as standardized scores (z-scores) relative to the class average. A score of 0 means average; negative scores mean below average. Autistic children (teal) cluster well below zero on both measures." class="paper-figure" >}}
+
+Autistic children scored approximately **0.5–0.7 standard deviations (z-scores) below** the class average on both measures — a meaningful gap that was statistically significant (p = 0.0025 and p = 0.0026 compared to children without SEN). In practical terms: in a typical classroom, an autistic child is likely to be chosen by fewer peers, and to receive fewer stars, than most of their classmates.
+
+Children with other special educational needs also scored below average, but the gap was smaller and less consistent. The effect was most pronounced for autism.
+
+---
+
+### Finding 2 — The stars autistic children receive come from fewer peers
+
+Beyond how *many* stars a child receives, we also looked at how *spread out* those stars are across the class — a measure of concentration known as the Gini coefficient. A child with diverse social connections tends to receive small amounts from many peers; a child in a more fragile position receives their few stars concentrated from just one or two.
+
+{{< figure src="fig5_gini.png" alt="Gini coefficient by group and regression table" caption="The Gini coefficient (0 = stars spread evenly across all peers; 1 = all stars from one person) measures how concentrated a child's received stars are — lower means broader social support. Autistic children show a statistically significant reduction of approximately 0.04 points (β = −0.039, p = 0.036), meaning their limited social support tends to come from a narrower circle of classmates." class="paper-figure" >}}
+
+While 0.04 Gini points is modest in absolute terms, it reflects a consistent pattern: autistic children not only receive fewer stars overall, but what they do receive is less distributed across peers — a sign of a more isolated social position.
+
+---
+
+### Finding 3 — Autistic children's relationships are rarely mutual
+
+A close friendship is usually mutual — you include someone, and they include you back. We measured how often this happened for each group through a property called *reciprocity*: a relationship counts as reciprocal when child A chose child B *and* B also chose A.
+
+{{< figure src="fig6_reciprociy.png" alt="Reciprocity contingency tables for Autism, No Special Needs, and SEN (no ASD) groups" caption="Each table shows how often pairs were mutually chosen (top-right cell) vs. not. For typically developing children, 24.3% of all possible ties were mutual. For autistic children, only 12.8% — roughly half the rate." class="paper-figure" >}}
+
+This is arguably the starkest finding: **autistic children's relationships were about half as likely to be mutual** compared to their typically developing peers (12.8% vs. 24.3%). When an autistic child chose a classmate, that classmate often did not choose them back. The result is not just fewer connections, but connections that tend to go in one direction — a pattern that makes meaningful friendship harder to form and sustain.
+
+---
+
+### A surprising null result: ADHD
+
+One group that prior literature often associates with social difficulties is children with ADHD. Contrary to that expectation, we found **no significant differences** in centrality or reciprocity between children with ADHD and typically developing children. This suggests that the social network effects we observed are specific to autism — not a general feature of all neurodevelopmental conditions — and motivates more targeted research and support strategies.
+
+---
+
+## Conference poster
+
+<div class="poster-award-banner">
+  <span class="poster-award-badge">🏆 Best Poster Award</span>
+  <span class="poster-award-event">European Conference on Social Networks (EUSN) · London, 2024</span>
+</div>
+
+<a href="poster-eusn2024.jpeg" target="_blank" class="poster-link">
+<figure class="paper-figure poster-figure">
+<img src="poster-eusn2024.jpeg" alt="Conference poster: Social Interactions and School Coexistence in Public Elementary Schools' Neurodiverse Classrooms" />
+<figcaption>Click to open full size.</figcaption>
+</figure>
+</a>
+
+---
+
 ## Keywords
 
 Social networks · Autism spectrum disorder · Neurodevelopmental disorders · Inclusive education · Experimental game theory
-
-## Reproducibility
-
-- Data sharing: ethics-sensitive (contact corresponding authors)
-- Code/materials: pending release
-
-## Storytelling
-
-Classroom inclusion is not just about attendance — it's about whether children are woven into the social fabric of their peer group. This study moves beyond individual assessments of autistic children to map how social dynamics play out at the classroom level.
-
-By combining a game-theoretic behavioral task with network analysis, we can observe *revealed* social preferences: not who children say they like, but who they actively choose to include when distributing real resources. The results paint a consistent picture: autistic children are less likely to be at the center of their peer networks, and less likely to be part of the reciprocal ties that characterize close friendships.
-
-This has direct implications for how schools design inclusive learning environments. The relational structure of a classroom is not background noise — it is part of the learning environment itself.
