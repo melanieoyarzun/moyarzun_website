@@ -7,7 +7,7 @@ cascade:
   show_post_date: true
   show_post_time: false
   sidebar:
-    show_sidebar_adunit: false
+    show_sidebar_adunit: true
     text_link_label: Download my CV
     text_link_url: /files/CV_MOW_March2026.pdf
 description: |
