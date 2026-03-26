@@ -6,7 +6,7 @@ description: |
   Hello! I’m Melanie, a Chilean computational social scientist based in Budapest. I study social interaction, persistence, and recognition using network analysis and causal approaches, across classrooms and scientific knowledge systems.
 image_left: false
 images:
-- img/IMG_7259_small.jpg
+- img/0TD3gXMJ.jpeg
 show_action_link: true
 show_social_links: true
 subtitle: Exploring how social structure shapes inequality through experiments and large-scale data.

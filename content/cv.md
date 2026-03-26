@@ -1,6 +1,6 @@
 ---
 description: Curriculum Vitae
-draft: false
+draft: true
 layout: standard
 show_title_as_headline: true
 title: CV
@@ -11,12 +11,11 @@ title: CV
 ## Download
 
 - [CV (March 2026, PDF)](/files/CV_MOW_March2026.pdf)
-- [Google Scholar profile](https://scholar.google.cl/citations?user=5-t0IgkAAAAJ&hl=es)
 
 ## Work
 
 ### Center for Collective Learning, Corvinus University of Budapest
-**Postdoctoral Research Fellow**  
+**Postdoctoral Research Fellow**
 Budapest, Hungary  
 Feb 2024 -> Present
 
@@ -26,36 +25,36 @@ Chile
 2021 -> Present
 
 ### Pontificia Universidad Catolica de Valparaiso
-**Instructor and Research Coordinator**  
+**Instructor and Research Coordinator**
+*Courses* Economic principles, Intermediate Microeconomics, Game Theory and Econometrics.
 Chile  
 2014 -> 2019
 
 ### Universidad Adolfo Ibanez
 **Instructor**  
+*Courses* Economic principles, Intermediate Microeconomics and Econometrics.
 Chile  
 2014 -> 2016
 
 ## Education
 
-### Universidad del Desarrollo
-**PhD in Social Complexity Sciences**  
-Chile  
+### PhD in Social Complexity Sciences
+**Universidad del Desarrollo** (Chile) 
 2019 -> 2024
 
-### University of Toulouse (ANITI / CCL)
-**Visiting PhD Student**  
-France  
+### Visiting PhD Student @ Center For Collective Learning
+**University of Toulouse (ANITI, CCL)** (France)
 2022 -> 2023
 
-### Pontificia Universidad Catolica de Chile
-**MSc in Economics**  
-Chile  
+### MSc in Economics
+**Pontificia Universidad Catolica de Chile**
 2018
 
-### Pontificia Universidad Catolica de Valparaiso
-**BSc in Business Administration (Commercial Engineering)**  
+### BSc in Business Administration (Commercial Engineering)
+**Pontificia Universidad Catolica de Valparaiso** (Chile)
 Chile  
 2006 -> 2011
+
 
 ## Recent peer-reviewed publications
 
