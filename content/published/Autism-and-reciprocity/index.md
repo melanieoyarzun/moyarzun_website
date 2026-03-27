@@ -16,6 +16,10 @@ links:
   icon_pack: ai
   name: OSF
   url: https://osf.io/bpm5g/
+- icon: scroll
+  icon_pack: fas
+  name: Interactive Story
+  url: https://autism-storytelling.netlify.app/
 - icon: image
   icon_pack: fa
   name: Poster
@@ -54,6 +58,38 @@ We used <em>El juego de las estrellas</em> — a behavioral game on networked ta
 <div class="significance-label">Why it matters</div>
 School inclusion is usually measured by attendance, not by whether children are actually woven into the social fabric of their class. This study provides a behaviorally grounded, ecologically valid measure of social integration — one that reveals stark inequalities invisible to conventional assessments, and points to the need to rethink how we design inclusive classrooms.
 </div>
+</div>
+
+---
+
+## Interactive story
+
+I also developed a companion scrollytelling version of this paper, designed for broader audiences and classroom presentation. It walks through the question, the Stars Game, the network logic, and the main findings in a more visual and narrative format.
+
+<div class="paper-story-card">
+  <div class="paper-story-top">
+    <div>
+      <div class="paper-story-kicker">Companion experience</div>
+      <h3 class="paper-story-title">Para incluir, no basta con estar</h3>
+      <p class="paper-story-text">A bilingual interactive story built from the published article, with animated transitions, an explorable classroom network, and a more accessible presentation of the main results.</p>
+    </div>
+    <div class="paper-story-actions">
+      <a href="https://autism-storytelling.netlify.app/" target="_blank" rel="noopener" class="paper-story-button">
+        Open interactive story
+      </a>
+    </div>
+  </div>
+
+  <div class="paper-story-embed">
+    <iframe
+      src="https://autism-storytelling.netlify.app/"
+      title="Interactive story for Autism shapes social integration and reciprocity in elementary classrooms"
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin">
+    </iframe>
+  </div>
+
+  <p class="paper-story-note">If the embedded preview does not load in your browser, you can open the full story in a new tab.</p>
 </div>
 
 ---

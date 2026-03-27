@@ -136,4 +136,30 @@ One of the channel's most-viewed methods videos is a class on fixed effects and 
 
 ## Teaching materials
 
-I am also beginning to organize additional materials from previous courses, including lecture notes, study guides, worked examples, and support documents developed for my students. Over time, I would like to make these materials available here in a more curated and reusable format.
+I am also beginning to organize additional materials from previous courses, including lecture notes, study guides, worked examples, and support documents developed for my students. For now, here are two course websites with materials in Spanish that I have used in teaching.
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+  <div style="background: #fff; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; padding: 1.2rem; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
+    <h4 style="margin-top: 0;">General Data Analysis Course</h4>
+    <p>A Spanish-language course site with notes, slides, workshops, and a final project guide covering research questions, data preparation, regression, and time series.</p>
+    <p style="margin-bottom: 0;">
+      <a href="https://analisisdatosudd.netlify.app/" target="_blank" rel="noopener"
+         style="display: inline-block; background-color: #107685; color: white; font-weight: 600; padding: 0.5rem 0.9rem; border-radius: 6px; text-decoration: none; font-size: 0.95rem;">
+        Open materials
+      </a>
+    </p>
+  </div>
+
+  <div style="background: #fff; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; padding: 1.2rem; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
+    <h4 style="margin-top: 0;">Network Science Course</h4>
+    <p>A Spanish-language course website developed with Cristian Candia, with slides and hands-on notebooks on graph theory, network structure, centrality, and communities.</p>
+    <p style="margin-bottom: 0;">
+      <a href="https://networksudd.netlify.app/" target="_blank" rel="noopener"
+         style="display: inline-block; background-color: #107685; color: white; font-weight: 600; padding: 0.5rem 0.9rem; border-radius: 6px; text-decoration: none; font-size: 0.95rem;">
+        Open materials
+      </a>
+    </p>
+  </div>
+</div>
+
+I plan to continue turning these materials into more evergreen and reusable course resources over time.
