@@ -51,7 +51,7 @@ It also mattered that the event had a clear structure and ambition. Applications
 
 ## Before The Event
 
-<div class="talk-gallery">
+<div class="talk-featured-pair">
   <figure>
     <img src="poster.png" alt="Promotional poster for WiDS Budapest Datathon 2025" />
     <figcaption>The promotional poster for the first WiDS Budapest Datathon.</figcaption>

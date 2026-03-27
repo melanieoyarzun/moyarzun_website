@@ -21,6 +21,13 @@
   max-width: 1060px !important;
 }
 
+// ── Listing card titles — no underline, bold instead ──────────────────────
+.blog-content h1.underline,
+.blog-content h1.underline a {
+  text-decoration: none !important;
+  font-weight: 700;
+}
+
 // ── Section title size — consistent across all section entry pages ─────────
 .blog-intro h2,
 .page-content.mw8 h1 {
@@ -45,7 +52,6 @@
   margin-top: 1.4rem;
   margin-bottom: 0.2rem;
   color: #2a4a5a;
-}
 }
 
 // ── Paper hero header (same approach as silviacanelon.com) ────────────────
@@ -467,8 +473,10 @@
 
 .talk-gallery img {
   width: 100%;
-  height: 220px;
+  aspect-ratio: 4 / 3;
+  height: auto;
   object-fit: cover;
+  object-position: top center;
   border-radius: 10px;
   border: 1px solid #d9ecee;
   box-shadow: 0 6px 18px rgba(20, 48, 60, 0.08);
@@ -479,6 +487,160 @@
   font-size: 0.84rem;
   line-height: 1.45;
   color: #546d76;
+}
+
+// ── Grouped orientation rows (built by gallery.js) ───────────────────
+// JS splits figures into .tg-row--landscape and .tg-row--portrait,
+// UNLESS the gallery has only 2 photos total (looks fine as-is).
+
+.tg-row {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  // Span all columns of the parent .talk-gallery grid so rows stack vertically
+  grid-column: 1 / -1;
+
+  &:last-child { margin-bottom: 0; }
+
+  figure { margin: 0; }
+
+  figcaption {
+    margin-top: 0.45rem;
+    font-size: 0.84rem;
+    line-height: 1.45;
+    color: #546d76;
+  }
+}
+
+.tg-row--landscape {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+  img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    height: auto;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 10px;
+    border: 1px solid #d9ecee;
+    box-shadow: 0 6px 18px rgba(20, 48, 60, 0.08);
+    cursor: zoom-in;
+  }
+}
+
+.tg-row--portrait {
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+
+  img {
+    width: 100%;
+    height: auto;
+    max-height: 480px;
+    object-fit: contain;
+    object-position: top center;
+    background: #f4fbfb;
+    border-radius: 10px;
+    border: 1px solid #d9ecee;
+    box-shadow: 0 6px 18px rgba(20, 48, 60, 0.08);
+    cursor: zoom-in;
+  }
+}
+
+// ── Featured pair (e.g. WiDS poster + sticker) ────────────────────────
+// Two items shown at natural proportions, centered, max-height capped
+.talk-featured-pair {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+  align-items: start;
+}
+
+.talk-featured-pair figure {
+  margin: 0;
+}
+
+.talk-featured-pair img {
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
+  object-position: top center;
+  border-radius: 10px;
+  border: 1px solid #d9ecee;
+  box-shadow: 0 6px 18px rgba(20, 48, 60, 0.08);
+  cursor: zoom-in;
+}
+
+.talk-featured-pair figcaption {
+  margin-top: 0.45rem;
+  font-size: 0.84rem;
+  line-height: 1.45;
+  color: #546d76;
+}
+
+// ── Lightbox overlay ──────────────────────────────────────────────────
+#gallery-lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  &.gl-open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.gl-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 28, 36, 0.88);
+  cursor: zoom-out;
+}
+
+.gl-stage {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 92vw;
+  max-height: 92vh;
+  padding: 0.5rem;
+}
+
+.gl-img {
+  max-width: 100%;
+  max-height: 82vh;
+  border-radius: 8px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.6);
+  object-fit: contain;
+}
+
+.gl-caption {
+  margin-top: 0.75rem;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.88rem;
+  text-align: center;
+  max-width: 60ch;
+  line-height: 1.5;
+}
+
+.gl-close {
+  position: absolute;
+  top: -2rem;
+  right: 0;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  opacity: 0.75;
+
+  &:hover { opacity: 1; }
 }
 
 /* Scrollytelling prototype for research pages */

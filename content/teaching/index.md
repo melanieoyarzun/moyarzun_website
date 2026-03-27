@@ -12,7 +12,7 @@ I teach and build educational resources around data science, causal inference, a
 
 ---
 
-## University teaching
+## **University teaching**
 
 ### Universidad del Desarrollo (2020–2022)
 
