@@ -1,8 +1,15 @@
 <!--https://gohugo.io/getting-started/configuration-markup#heading-link-example-->
 <!--icon from material design: https://material.io/resources/icons/?style=baseline-->
 
+{{ $showAnchor := true }}
+{{ with .Page }}
+  {{ if .Params.hide_heading_anchors }}
+    {{ $showAnchor = false }}
+  {{ end }}
+{{ end }}
 
 <h{{ .Level }} id="{{ .Anchor | safeURL }}">{{ .Text | safeHTML }}
+  {{ if $showAnchor }}
   <a href="#{{ .Anchor | safeURL }}">
     {{- if or (eq .Level 2) (eq .Level 3) -}}
     <svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
@@ -11,4 +18,5 @@
     </svg>
     {{- end -}}
   </a>
+  {{ end }}
 </h{{ .Level }}>

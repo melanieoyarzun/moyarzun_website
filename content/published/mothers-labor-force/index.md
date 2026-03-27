@@ -14,7 +14,7 @@ links:
   url: https://doi.org/10.1007/s11150-022-09599-6
 - icon: paperclip
   icon_pack: fa
-  name: PDF
+  name: Download PDF
   url: s11150-022-09599-6-2.pdf
 - icon: file-alt
   icon_pack: fa

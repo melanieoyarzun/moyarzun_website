@@ -1,9 +1,10 @@
 ---
 cascade:
   headless: false
+  hide_heading_anchors: true
 description: |
-  A website template for Hugo developed by RStudio & Formspree and available for free.
-show_header: true
+  Researcher in computational social science, based in Budapest.
+show_header: false
 sidebar_left: false
 title: About
 ---

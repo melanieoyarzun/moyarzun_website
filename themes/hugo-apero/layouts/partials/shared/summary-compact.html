@@ -8,9 +8,11 @@
   {{ if $root.Params.show_post_thumbnail }}
   <!--featured image for the leaf bundle-->
   {{- $images := $page.Resources.ByType "image" -}}
+  {{- $photo := $images.GetMatch "*photo*" -}}
   {{ $leaf := $images.GetMatch "*feature*" }}
   {{- $hex := $images.GetMatch "*hex*" -}}
-  {{- $thumbnail := cond (ne $hex nil) $hex $leaf -}}
+  {{- $thumbnail := cond (ne $photo nil) $photo $leaf -}}
+  {{- $thumbnail := cond (ne $hex nil) $hex $thumbnail -}}
   <!--sidebar image for the branch bundle-->
   {{ $branch := ($section.Resources.ByType "image").GetMatch "*feature*" }}
   {{- $thumbnail := cond (ne $thumbnail nil) $thumbnail $branch -}}
@@ -33,11 +35,11 @@
       {{ with $summary }}<p class="f6 lh-copy mv2 flex-auto measure-wide">{{ . | markdownify | emojify }}</p>{{ end }}
       <footer class="w-100">
       <!--ensures section Params are respected-->
-      {{ if .Params.show_post_date }}<p class="f7 dib mv1">{{ partial "shared/date-range.html" . }}</p>{{ end }}
+      {{ if .Params.show_post_date }}<p class="f7 dib mv1">{{ with .Params.display_date }}{{ . }}{{ else }}{{ partial "shared/date-range.html" $ }}{{ end }}</p>{{ end }}
       {{ if .Params.show_post_time }}
         <span class="middot-divider"></span>
         <p class="f7 dib mv1">
-          {{ partial "shared/time-range.html" . }}
+          {{ with .Params.display_time }}{{ . }}{{ else }}{{ partial "shared/time-range.html" $ }}{{ end }}
         </p>
       {{ end }}
       {{ if .Params.event }}
@@ -72,7 +74,7 @@
       {{ $summary := cond (ne .Params.excerpt nil) .Params.excerpt .Summary }}
       {{ with $summary }}<p class="lh-copy mb4">{{ . | markdownify | emojify }}</p>{{ end }}
     <footer>
-      {{ if $root.Params.show_post_date }}<p class="f7 dib mv1">{{ partial "shared/date-range.html" . }}</p>{{ end }}
+      {{ if $root.Params.show_post_date }}<p class="f7 dib mv1">{{ with .Params.display_date }}{{ . }}{{ else }}{{ partial "shared/date-range.html" $ }}{{ end }}</p>{{ end }}
       {{ if .Params.event }}
         <span class="middot-divider"></span>
         <p class="f7 dib mv1">{{ .Params.event }} {{ with .Params.location }}/ {{ . }}{{ end }}</p>

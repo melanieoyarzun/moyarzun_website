@@ -14,7 +14,7 @@ links:
   url: https://doi.org/10.1016/j.heliyon.2022.e11916
 - icon: paperclip
   icon_pack: fa
-  name: PDF
+  name: Download PDF
   url: reciprocity_candiaetal.pdf
 show_post_time: false
 show_author_byline: false

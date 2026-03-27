@@ -12,14 +12,16 @@
     <h5 class="row-label">Date</h5>
   </div>
   <div class="second-column">
-    <p class="row-details">{{ partial "shared/date-range.html" . }}</p>
+    <p class="row-details">{{ with .Params.display_date }}{{ . }}{{ else }}{{ partial "shared/date-range.html" $ }}{{ end }}</p>
   </div>
+  {{ if or .Params.display_time .Params.show_post_time }}
   <div class="first-column">
     <h5 class="row-label">Time</h5>
   </div>
   <div class="second-column">
-    <p class="row-details">{{ partial "shared/time-range.html" . }}</p>
+    <p class="row-details">{{ with .Params.display_time }}{{ . }}{{ else }}{{ partial "shared/time-range.html" $ }}{{ end }}</p>
   </div>
+  {{ end }}
   {{ end }}
   {{ with .Params.location }}
   <div class="first-column">

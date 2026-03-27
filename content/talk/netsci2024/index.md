@@ -1,29 +1,34 @@
 ---
-author: Alison Hill
+author: Melanie Oyarzun
 categories:
-- workshop
-date: "2021-01-12"
-date_end: "2021-01-13"
+- conference
+date: "2024-06-01"
+display_date: "June 2024"
 draft: false
-event: rstudio::global(2021)
-event_url: https://global.rstudio.com
-excerpt: Here is a talk I gave on making awesome personal websites using Hugo, blogdown,
-  GitHub, and Netlify.
-featured: true
+event: International School and Conference on Network Science (NetSci)
+excerpt: Presentation on heterogeneity and homophily in the academic retention of STEM students.
 layout: single
-links:
-- icon: door-open
-  icon_pack: fas
-  name: website
-  url: https://bakeoff.netlify.com/
-- icon: github
-  icon_pack: fab
-  name: code
-  url: https://github.com/apreshill/bakeoff
-location: Sydney, Australia
+location: Quebec, Canada
 show_post_time: false
-subtitle: Testing
-title: A campfire
+subtitle: Conference presentation
+title: NetSci 2024 · Quebec, Canada
 ---
 
-I'm really excited to give this talk! Stay tuned for video and slides.
+This conference presentation focused on work about **heterogeneity and homophily in the academic retention of STEM students**. It was part of an ongoing line of research connecting network structure, persistence, and inequality in higher education.
+
+For me, this event was also useful as a checkpoint: it helped sharpen how to communicate the project to a broader network science audience, and it marked a transition toward framing the work more explicitly around persistence and social structure.
+
+This page now starts doing exactly that: keeping a simple record of where the project was presented, what the core argument was, and some visual traces from the event.
+
+## Photos
+
+<div class="talk-gallery">
+  <figure>
+    <img src="IMG_0947.jpeg" alt="Conference moment at NetSci 2024 in Quebec" />
+    <figcaption>A moment from NetSci 2024 in Quebec.</figcaption>
+  </figure>
+  <figure>
+    <img src="IMG_1093.jpeg" alt="Conference photo at NetSci 2024 in Quebec" />
+    <figcaption>Another snapshot from the conference in Quebec.</figcaption>
+  </figure>
+</div>

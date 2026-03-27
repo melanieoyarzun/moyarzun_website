@@ -1,6 +1,6 @@
 ---
 author: "Melanie Oyarzun"
-role: "Postdoctoral Research Fellow @ [Center for Collective Learning](https://centerforcollectivelearning.org)"
+role: "Postdoctoral Fellow · [CCL](https://centerforcollectivelearning.org) · Collaborator @ [CRISS Lab](https://criss-lab.com/)"
 avatar_shape: circle
 show_social_links: true
 link_list_label: Quick links
