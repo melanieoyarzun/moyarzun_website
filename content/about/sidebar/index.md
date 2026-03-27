@@ -1,18 +1,14 @@
 ---
 author: "Melanie Oyarzun"
-role: "Postdoctoral Fellow · [CCL](https://centerforcollectivelearning.org) · Collaborator @ [CRISS Lab](https://criss-lab.com/)"
+role: "Postdoctoral Fellow<br>[Center for Collective Learning](https://centerforcollectivelearning.org) · Corvinus University<br>Collaborator · [CRISS Lab](https://criss-lab.com/) · UDD Chile"
 avatar_shape: circle
 show_social_links: true
-link_list_label: Quick links
+link_list_label: Links
 link_list:
-  - name: Teaching & Media
-    url: /teaching/
-  - name: Educational YouTube
-    url: https://www.youtube.com/@MelanieOyarzun
-  - name: Download CV
-    url: /files/CV_MOW_March2026.pdf
   - name: Google Scholar
     url: https://scholar.google.cl/citations?user=5-t0IgkAAAAJ&hl=es
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/melanie-oyarz%C3%BAn-wolf-73789723
   - name: Email me
     url: mailto:melanie.oyarzun@gmail.com
 ---

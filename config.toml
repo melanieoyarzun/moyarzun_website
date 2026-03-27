@@ -55,6 +55,11 @@ enableEmoji = true
     renderer = "katex"
 
   [[params.social]]
+      icon      = "linkedin"
+      icon_pack = "fab"
+      url       = "https://www.linkedin.com/in/melanie-oyarz%C3%BAn-wolf-73789723"
+
+  [[params.social]]
       icon      = "github"
       icon_pack = "fab"
       url       = "https://github.com/melanieoyarzun"
