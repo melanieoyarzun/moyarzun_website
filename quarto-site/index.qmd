@@ -20,7 +20,7 @@ about:
     - icon: envelope
       href: mailto:melanie.oyarzun@gmail.com
     - text: Scholar
-      href: https://scholar.google.cl/citations?user=5-t0IgkAAAAJ&hl=es
+      href: https://scholar.google.com/citations?user=8Om8OtIAAAAJ&hl=en
 resources:
   - styles.css
 ---

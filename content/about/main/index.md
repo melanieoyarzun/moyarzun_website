@@ -5,7 +5,7 @@ use_featured: false
 number_categories: 0
 show_intro: true
 intro: |
-  I am Chilean, but I've been living in Budapest for a little over two years now. I came here for a postdoc and ended up falling a bit in love with the city — the thermal baths help.
+  I am Chilean, but I've been living in Budapest for a little over two years now. I came here for a postdoc and ended up falling a bit in love with the city. The thermal baths help.
 
   Before that I spent most of my life between Valparaíso, Concepción and Santiago, where I did most of my education. Plus 8 months I lived in Toulouse, France and 5 in Millersville PA, USA.
 
@@ -13,11 +13,11 @@ intro: |
 
   ## My work
 
-  I'm a researcher and have spent several years also working as a lecturer — teaching economics and data science at university level, which I loved for the conversations it forced me to have about complex ideas with people encountering them for the first time.
+  I'm a researcher who has also spent several years teaching economics and data science at the university level. I loved teaching because it meant turning complex ideas into conversations people could actually enter and make their own.
 
   Now I work as a **Postdoctoral Research Fellow** at the [Center for Collective Learning](https://centerforcollectivelearning.org/) (Corvinus University of Budapest), led by César Hidalgo. I'm also a collaborator at the [CRISS Lab](https://criss-lab.com/) at Universidad del Desarrollo in Chile, where I work alongside Cristian Candia and Carlos Rodríguez-Sickert.
 
-  My research asks how social relationships shape outcomes — in classrooms, in labor markets, and in society. I study things like who children befriend and how that affects their learning, how policy design can remove barriers to women's workforce participation, and how collective memory and cultural proximity shape behavior. I work at the intersection of **social networks, cooperation, inequality, and education policy**, combining computational methods, applied econometrics, and behavioral experiments.
+  My research asks how social relationships shape outcomes in classrooms, labor markets, and society more broadly. I study how children's friendships affect learning, how policy design can remove barriers to women's labor force participation, and how collective memory and cultural proximity shape behavior. My work sits at the intersection of **social networks, cooperation, inequality, and education policy**, and combines computational methods, applied econometrics, and behavioral experiments.
 
   I completed a **PhD in Social Complexity Sciences** at Universidad del Desarrollo, an **MSc in Economics** from Pontificia Universidad Católica de Chile, and a **BSc in Business Administration** from PUCV Valparaíso.
 

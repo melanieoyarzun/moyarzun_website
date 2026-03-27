@@ -34,7 +34,7 @@ The short format was especially useful for distilling the core contribution of t
     <figcaption>A moment from the Women in Network Science activities at the conference.</figcaption>
   </figure>
   <figure>
-    <img src="IMG_7798.jpeg" alt="Melanie Oyarzun with coauthor Mariana Macedo at NetSci 2023" />
-    <figcaption>With coauthor Mariana Macedo in Vienna.</figcaption>
+    <img src="IMG_7798.jpeg" alt="Melanie Oyarzun with collaborator and friend Mariana Macedo at NetSci 2023" />
+    <figcaption>With collaborator and friend Mariana Macedo in Vienna.</figcaption>
   </figure>
 </div>

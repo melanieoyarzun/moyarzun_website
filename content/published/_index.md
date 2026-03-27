@@ -23,7 +23,7 @@ sidebar:
   description: "Research outputs: papers, context, and materials."
   show_sidebar_adunit: false
   text_link_label: Visit Google Scholar
-  text_link_url: https://scholar.google.cl/citations?user=5-t0IgkAAAAJ&hl=es
+  text_link_url: https://scholar.google.com/citations?user=8Om8OtIAAAAJ&hl=en
   title: Research
   excerpt: Publications and research notes
 title: Research
@@ -31,4 +31,4 @@ title: Research
 
 My research sits at the intersection of social networks, cooperation, inequality, and education policy. I combine computational social science with applied microeconometrics and experimental methods.
 
-Each entry here includes the research question, main findings, and a storytelling section with the broader context. For a full list see [Google Scholar](https://scholar.google.cl/citations?user=5-t0IgkAAAAJ&hl=es) or [ORCID](https://orcid.org/0000-0002-4869-3956).
+Each entry here includes the research question, main findings, and a storytelling section with the broader context. For a full list see [Google Scholar](https://scholar.google.com/citations?user=8Om8OtIAAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-4869-3956).

@@ -24,8 +24,8 @@ title: CV
 </div>
 
 <div class="cv-entry">
-  <h3>Universidad del Desarrollo</h3>
-  <p class="cv-role">Director, Diploma in Data Science for Organizational Leadership</p>
+  <h3>Universidad del Desarrollo + eClass</h3>
+  <p class="cv-role">Director, <a href="https://brochure.eclass.com/pdf/diploma/1480/890/326" target="_blank" rel="noopener">Diploma in Data Science for Organizational Leadership</a></p>
   <p class="cv-meta">Chile · 2021 - Present</p>
 </div>
 

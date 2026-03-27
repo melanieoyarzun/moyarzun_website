@@ -26,7 +26,7 @@ This is also the kind of page I want to keep building over time: not just finish
     <figcaption>A moment from IC2S2 2023 in Copenhagen.</figcaption>
   </figure>
   <figure>
-    <img src="IMG_9545.jpeg" alt="Melanie Oyarzun with coauthor Mariana Macedo at IC2S2 2023 in Copenhagen" />
-    <figcaption>With coauthor Mariana Macedo in Copenhagen.</figcaption>
+    <img src="IMG_9545.jpeg" alt="Melanie Oyarzun with collaborator and friend Mariana Macedo at IC2S2 2023 in Copenhagen" />
+    <figcaption>With collaborator and friend Mariana Macedo in Copenhagen.</figcaption>
   </figure>
 </div>

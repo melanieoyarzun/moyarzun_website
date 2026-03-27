@@ -72,7 +72,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "google-scholar"
       icon_pack = "ai"
-      url       = "https://scholar.google.cl/citations?user=5-t0IgkAAAAJ&hl=es"
+      url       = "https://scholar.google.com/citations?user=8Om8OtIAAAAJ&hl=en"
 
   [[params.social]]
       icon      = "youtube"
@@ -132,16 +132,10 @@ enableEmoji = true
     weight = 6
 
   [[menu.footer]]
-    name = "CV"
-    title = "Curriculum Vitae"
-    url = "/cv/"
-    weight = 1
-
-  [[menu.footer]]
     name = "License"
     title = "License"
     url = "/license/"
-    weight = 2
+    weight = 1
 
 [privacy]
   [privacy.disqus]
