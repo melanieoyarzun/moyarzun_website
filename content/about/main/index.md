@@ -21,11 +21,9 @@ intro: |
 
   I completed a **PhD in Social Complexity Sciences** at Universidad del Desarrollo, an **MSc in Economics** from Pontificia Universidad Católica de Chile, and a **BSc in Business Administration** from PUCV Valparaíso.
 
-  <hr>
 
-  **Want to see what I've been working on?** Head to [Research →](/published/)
-
-  <div class="mt4 pt3 bt b--black-10"><p style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#107685;margin-bottom:0.6rem;">On Twitter / X</p><a class="twitter-timeline" data-tweet-limit="3" data-chrome="noheader nofooter noborders transparent" data-dnt="true" href="https://twitter.com/mel2kill">Tweets by @mel2kill</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+  **Want to see what I've been working on?** 
+  
 show_outro: false
 outro:
 ---
