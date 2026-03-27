@@ -54,6 +54,44 @@
   color: #2a4a5a;
 }
 
+// About sidebar role block
+.about-role {
+  margin: 0.9rem 0 1.1rem;
+  font-size: 0.98rem;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.about-role p {
+  margin: 0;
+}
+
+.about-role-label {
+  display: inline-block;
+  margin-bottom: 0.15rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #47606c;
+}
+
+.about-role a {
+  color: #14303c;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(20, 48, 60, 0.22);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.about-role a:hover,
+.about-role a:focus {
+  color: #0d6b78;
+  border-bottom-color: rgba(13, 107, 120, 0.45);
+}
+
 // ── Paper hero header (same approach as silviacanelon.com) ────────────────
 // Needs grid-column: 1 / -1 to escape Hugo Apero's 6-column grid-container
 // and span the full viewport width.

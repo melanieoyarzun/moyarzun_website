@@ -58,7 +58,7 @@
               {{ end }}
             {{ end }}
             <h2 class="f-subheadline f4-ns fw6">{{ .Params.author }}</h2>
-            <h5 class="f-subheadline f4 fw2 ttu tracked">{{ .Params.role | markdownify }}</h5>
+            <div class="about-role">{{ .Params.role | markdownify }}</div>
             {{ if .Params.show_social_links }}
               <div class="site-social-links db v-mid pv2">
               {{ partial "shared/social-links.html" . }}
@@ -78,12 +78,14 @@
             </div>
             {{ end }}
 
+          {{ if .Params.link_list }}
           <div class="pa1 pa2-ns tc ph4">
             <h5 class="f-subheadline f4 fw2 ttu tracked">{{ .Params.link_list_label }}</h5>
             <ul class="list measure center ph4 pb4">
               {{ partial "shared/about-links" . }}
             </ul>
           </div>
+          {{ end }}
         </sidebar>
         {{ end }}
 
