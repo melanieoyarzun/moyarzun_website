@@ -35,7 +35,9 @@ I teach and build educational resources around data science, causal inference, a
 
 ---
 
-## Thesis committees
+## Thesis committees and examination boards
+
+I served as a committee member in the following theses.
 
 ### Master in Data Science, Universidad del Desarrollo
 
@@ -43,6 +45,10 @@ I teach and build educational resources around data science, causal inference, a
 - Rodrigo Manríquez (2023)
 - Felipe Díaz (2022)
 - Sebastián Azócar (2021)
+
+### Commercial Engineering, Pontificia Universidad Católica de Valparaíso
+
+- Fiamma Orlandi Santambrogio (2018)
 
 ---
 
