@@ -49,6 +49,11 @@ Soto-Icaza, P., Oyarzún, M., Yaikin, T., Arcos-Polanco, M., Candia, C., Rodríg
 
 ---
 
+<div class="paper-key-question">
+<div class="paper-key-question-label">Key question</div>
+What role do autism and other special educational needs play in children's social relationships in the classroom?
+</div>
+
 <div class="paper-lede">
 <div class="paper-tldr">
 <span class="tldr-label">TL;DR</span>
@@ -60,36 +65,31 @@ School inclusion is usually measured by attendance, not by whether children are 
 </div>
 </div>
 
----
-
-## Interactive story
-
-I also developed a companion scrollytelling version of this paper, designed for broader audiences and classroom presentation. It walks through the question, the Stars Game, the network logic, and the main findings in a more visual and narrative format.
-
 <div class="paper-story-card">
   <div class="paper-story-top">
     <div>
-      <div class="paper-story-kicker">Companion experience</div>
-      <h3 class="paper-story-title">Para incluir, no basta con estar</h3>
-      <p class="paper-story-text">A bilingual interactive story built from the published article, with animated transitions, an explorable classroom network, and a more accessible presentation of the main results.</p>
+      <div class="paper-story-kicker"><strong>Companion experience: Scrollytelling site</strong></div>
+      <p class="paper-story-text">A bilingual, more visual version of the paper with an explorable network and the main results in narrative form.</p>
     </div>
     <div class="paper-story-actions">
       <a href="https://autism-storytelling.netlify.app/" target="_blank" rel="noopener" class="paper-story-button">
-        Open interactive story
+        Open story
       </a>
     </div>
   </div>
 
-  <div class="paper-story-embed">
-    <iframe
-      src="https://autism-storytelling.netlify.app/"
-      title="Interactive story for Autism shapes social integration and reciprocity in elementary classrooms"
-      loading="lazy"
-      referrerpolicy="strict-origin-when-cross-origin">
-    </iframe>
-  </div>
-
-  <p class="paper-story-note">If the embedded preview does not load in your browser, you can open the full story in a new tab.</p>
+  <details class="paper-story-details">
+    <summary class="paper-story-summary">Preview here >></summary>
+    <div class="paper-story-embed">
+      <iframe
+        src="https://autism-storytelling.netlify.app/"
+        title="Interactive story for Autism shapes social integration and reciprocity in elementary classrooms"
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin">
+      </iframe>
+    </div>
+    <p class="paper-story-note">If the preview does not load, open the story in a new tab.</p>
+  </details>
 </div>
 
 ---

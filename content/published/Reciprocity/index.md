@@ -42,6 +42,11 @@ Candia, C., Oyarzún, M., Landaeta, V., Yaikin, T., Monge, C., Hidalgo, C., & Ro
 
 ---
 
+<div class="paper-key-question">
+<div class="paper-key-question-label">Key question</div>
+Do mutual peer relationships actually improve students' academic performance, or do high-performing students simply end up in better social networks?
+</div>
+
 <div class="paper-lede">
 <div class="paper-tldr">
 <span class="tldr-label">TL;DR</span>

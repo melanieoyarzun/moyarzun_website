@@ -46,6 +46,11 @@ Berthelon, M., Kruger, D., & Oyarzún, M. (2022). School schedules and mothers' 
 
 ---
 
+<div class="paper-key-question">
+<div class="paper-key-question-label">Key question</div>
+When schools keep children for longer during the day, does that make it easier for mothers to stay in the labor market?
+</div>
+
 <div class="paper-lede">
 <div class="paper-tldr">
 <span class="tldr-label">TL;DR</span>
