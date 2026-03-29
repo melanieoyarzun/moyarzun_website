@@ -1,0 +1,26 @@
+{{ $currentPage := . }}
+{{ $languages := sort .Site.Home.AllTranslations "Language.Weight" }}
+{{ if gt (len $languages) 1 }}
+<nav class="language-switcher dib" aria-label="{{ T "language_switcher" }}">
+  {{ range $languages }}
+    {{ $langCode := .Language.Lang }}
+    {{ $target := .RelPermalink }}
+    {{ if eq $langCode $currentPage.Language.Lang }}
+      {{ $target = $currentPage.RelPermalink }}
+    {{ else }}
+      {{ range $currentPage.AllTranslations }}
+        {{ if eq .Language.Lang $langCode }}
+          {{ $target = .RelPermalink }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    <a
+      class="language-switcher__option{{ if eq $langCode $currentPage.Language.Lang }} is-active{{ end }}"
+      href="{{ $target }}"
+      lang="{{ $langCode }}"
+      hreflang="{{ $langCode }}">
+      {{ upper $langCode }}
+    </a>
+  {{ end }}
+</nav>
+{{ end }}

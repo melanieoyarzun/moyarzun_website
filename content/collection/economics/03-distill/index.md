@@ -21,11 +21,10 @@ Restart your R session. If you use RStudio, use the menu item *Session \> Restar
 -   <kbd>Ctrl + Shift + F10</kbd> (Windows and Linux) or
 -   <kbd>Command + Shift + F10<kbd> (Mac OS).
 
-```{=html}
-<!-- -->
+```r
+packageVersion("distill")
+# [1] "1.2"
 ```
-    packageVersion("distill")
-    [1] ‘1.2’
 
 ## Create GitHub repo
 
@@ -91,7 +90,7 @@ create_article(file = "about",         # future name of .Rmd file
                package = "postcards")
 ```
 
-[Reminder: templates]({{< ref "/02-postcards#templates" >}} "Postcards templates")
+[Reminder: templates](/collection/economics/02-postcards/#templates "Postcards templates")
 
 
 ## Site navigation

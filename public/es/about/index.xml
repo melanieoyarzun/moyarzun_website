@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sobre mí on Melanie Oyarzún</title>
+    <link>https://moyarzun.netlify.app/es/about/</link>
+    <description>Recent content in Sobre mí on Melanie Oyarzún</description>
+    <generator>Hugo</generator>
+    <language>es-CL</language>
+    <atom:link href="https://moyarzun.netlify.app/es/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://moyarzun.netlify.app/es/about/header/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://moyarzun.netlify.app/es/about/header/</guid>
+      <description>&lt;p&gt;Investigadora en ciencias sociales computacionales, nacida en Chile y actualmente radicada en Budapest.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://moyarzun.netlify.app/es/about/sidebar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://moyarzun.netlify.app/es/about/sidebar/</guid>
+      <description>&lt;p&gt;** index doesn&amp;rsquo;t contain a body, just front matter above.&#xA;See about/list.html in the layouts folder **&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hola, soy Melanie.</title>
+      <link>https://moyarzun.netlify.app/es/about/main/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://moyarzun.netlify.app/es/about/main/</guid>
+      <description>&lt;p&gt;** index doesn&amp;rsquo;t contain a body, just front matter above.&#xA;See about/list.html in the layouts folder **&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

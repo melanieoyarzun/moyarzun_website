@@ -1,0 +1,59 @@
+[home]
+other = "Home"
+
+[language_switcher]
+other = "Language selector"
+
+[read_more]
+other = "Read more"
+
+[see_all]
+other = "See all"
+
+[featured_categories]
+other = "Featured categories"
+
+[newer]
+other = "Newer"
+
+[older]
+other = "Older"
+
+[previous]
+other = "Previous"
+
+[next]
+other = "Next"
+
+[of]
+other = "of"
+
+[contact_name_label]
+other = "Full Name"
+
+[contact_name_placeholder]
+other = "First and Last"
+
+[contact_email_label]
+other = "Email address"
+
+[contact_email_placeholder]
+other = "your@email.here"
+
+[contact_message_label]
+other = "Message"
+
+[contact_message_placeholder]
+other = "Write your message here."
+
+[contact_form_submission]
+other = "Submission"
+
+[powered_by]
+other = "Powered by"
+
+[on_this_page]
+other = "On this page"
+
+[in_this_series]
+other = "In this series"

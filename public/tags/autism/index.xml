@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>autism on Melanie Oyarzún</title>
+    <title>Autism on Melanie Oyarzún</title>
     <link>https://moyarzun.netlify.app/tags/autism/</link>
-    <description>Recent content in autism on Melanie Oyarzún</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://moyarzun.netlify.app/tags/autism/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Autism on Melanie Oyarzún</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://moyarzun.netlify.app/tags/autism/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Autism shapes social integration and reciprocity in elementary classrooms</title>
       <link>https://moyarzun.netlify.app/published/autism-and-reciprocity/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://moyarzun.netlify.app/published/autism-and-reciprocity/</guid>
-      <description>Research question How does neurodevelopmental diversity — specifically autism — shape the structure of social networks and reciprocal peer relationships in elementary classrooms?
-Main contribution This paper introduces a novel ecological approach using experimental game theory to quantify social integration and reciprocity among autistic children in real classroom settings. Social networks were constructed from children&amp;rsquo;s peer selections in a distributive game played on networked tablets, capturing revealed social preferences rather than self-reports.</description>
+      <description>&lt;div class=&#34;paper-citation-box&#34;&gt;&#xA;&lt;div class=&#34;citation-text&#34;&gt;&#xA;Soto-Icaza, P., Oyarzún, M., Yaikin, T., Arcos-Polanco, M., Candia, C., Rodríguez-Sickert, C., &amp; Billeke, P. (2025). Autism shapes social integration and reciprocity in elementary classrooms. &lt;em&gt;Scientific Reports&lt;/em&gt;, 15, 40473. &lt;a href=&#34;https://doi.org/10.1038/s41598-025-24190-6&#34;&gt;https://doi.org/10.1038/s41598-025-24190-6&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;citation-metrics&#34;&gt;&#xA;&lt;div class=&#34;altmetric-embed&#34; data-badge-type=&#34;donut&#34; data-badge-popover=&#34;right&#34; data-doi=&#34;10.1038/s41598-025-24190-6&#34;&gt;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;script type=&#34;text/javascript&#34; src=&#34;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#34;&gt;&lt;/script&gt;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;paper-key-question&#34;&gt;&#xA;&lt;div class=&#34;paper-key-question-label&#34;&gt;Key question&lt;/div&gt;&#xA;What role do autism and other special educational needs play in children&#39;s social relationships in the classroom?&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paper-lede&#34;&gt;&#xA;&lt;div class=&#34;paper-tldr&#34;&gt;&#xA;&lt;span class=&#34;tldr-label&#34;&gt;TL;DR&lt;/span&gt;&#xA;We used &lt;em&gt;El juego de las estrellas&lt;/em&gt; — a behavioral game on networked tablets — to map peer social networks in 26 Chilean classrooms. Autistic children were significantly more peripheral and less involved in reciprocal relationships than their peers, while children with ADHD showed no significant differences.&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paper-significance&#34;&gt;&#xA;&lt;div class=&#34;significance-label&#34;&gt;Why it matters&lt;/div&gt;&#xA;School inclusion is usually measured by attendance, not by whether children are actually woven into the social fabric of their class. This study provides a behaviorally grounded, ecologically valid measure of social integration — one that reveals stark inequalities invisible to conventional assessments, and points to the need to rethink how we design inclusive classrooms.&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paper-story-card&#34;&gt;&#xA;  &lt;div class=&#34;paper-story-top&#34;&gt;&#xA;    &lt;div&gt;&#xA;      &lt;div class=&#34;paper-story-kicker&#34;&gt;&lt;strong&gt;Companion experience: Scrollytelling site&lt;/strong&gt;&lt;/div&gt;&#xA;      &lt;p class=&#34;paper-story-text&#34;&gt;A bilingual, more visual version of the paper with an explorable network and the main results in narrative form.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

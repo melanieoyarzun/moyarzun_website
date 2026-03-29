@@ -92,6 +92,49 @@
   border-bottom-color: rgba(13, 107, 120, 0.45);
 }
 
+// ── Language switcher ─────────────────────────────────────────────────────
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #faf7f2;
+}
+
+.language-switcher__option {
+  min-width: 74px;
+  padding: 0.72rem 1.15rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  color: #6e647a;
+  background: transparent;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.language-switcher__option:hover,
+.language-switcher__option:focus {
+  background: rgba(51, 169, 162, 0.08);
+  color: #4e4560;
+}
+
+.language-switcher__option.is-active {
+  background: linear-gradient(180deg, #38b5ae 0%, #2e9f99 100%);
+  color: #ffffff;
+}
+
+@media (max-width: 40em) {
+  .language-switcher__option {
+    min-width: 64px;
+    padding: 0.62rem 0.95rem;
+    font-size: 0.84rem;
+  }
+}
+
 // ── Paper hero header (same approach as silviacanelon.com) ────────────────
 // Needs grid-column: 1 / -1 to escape Hugo Apero's 6-column grid-container
 // and span the full viewport width.

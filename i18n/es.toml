@@ -1,0 +1,59 @@
+[home]
+other = "Inicio"
+
+[language_switcher]
+other = "Selector de idioma"
+
+[read_more]
+other = "Leer más"
+
+[see_all]
+other = "Ver todo"
+
+[featured_categories]
+other = "Categorías destacadas"
+
+[newer]
+other = "Más recientes"
+
+[older]
+other = "Más antiguas"
+
+[previous]
+other = "Anterior"
+
+[next]
+other = "Siguiente"
+
+[of]
+other = "de"
+
+[contact_name_label]
+other = "Nombre completo"
+
+[contact_name_placeholder]
+other = "Nombre y apellido"
+
+[contact_email_label]
+other = "Correo electrónico"
+
+[contact_email_placeholder]
+other = "tu@email.aqui"
+
+[contact_message_label]
+other = "Mensaje"
+
+[contact_message_placeholder]
+other = "Escribe tu mensaje aquí."
+
+[contact_form_submission]
+other = "Envío"
+
+[powered_by]
+other = "Desarrollado con"
+
+[on_this_page]
+other = "En esta página"
+
+[in_this_series]
+other = "En esta serie"

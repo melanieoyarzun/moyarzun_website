@@ -1,6 +1,7 @@
 baseURL = "https://moyarzun.netlify.app/"
 theme = "hugo-apero"
-languageCode = "en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 title = "Melanie Oyarzún"
 author = "Melanie Oyarzún"
 copyright = ""
@@ -8,10 +9,12 @@ googleAnalytics = ""
 disqusShortname = ""
 metaDataFormat = "yaml"
 footnoteReturnLinkContents = "&#8617;"
-paginate = 6
 preserveTaxonomyNames = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 enableEmoji = true
+
+[pagination]
+  pagerSize = 6
 
 [markup]
   defaultMarkdownHandler = "goldmark"
@@ -94,48 +97,94 @@ enableEmoji = true
   series = "series"
   tag = "tags"
 
-[menu]
-  [[menu.header]]
-    name = "About"
-    title = "About"
-    url = "/about/"
+[languages]
+  [languages.en]
+    languageCode = "en-US"
+    languageName = "English"
+    title = "Melanie Oyarzún"
     weight = 1
+    [languages.en.params]
+      description = "Postdoctoral Research Fellow at CCL Budapest"
+    [languages.en.menus]
+      [[languages.en.menus.header]]
+        name = "About"
+        title = "About"
+        pageRef = "/about"
+        weight = 1
+      [[languages.en.menus.header]]
+        name = "Research"
+        title = "Research"
+        pageRef = "/published"
+        weight = 2
+      [[languages.en.menus.header]]
+        name = "Talks"
+        title = "Talks"
+        pageRef = "/talk"
+        weight = 3
+      [[languages.en.menus.header]]
+        name = "Teaching"
+        title = "Teaching"
+        pageRef = "/teaching"
+        weight = 4
+      [[languages.en.menus.header]]
+        name = "CV"
+        title = "CV"
+        pageRef = "/cv"
+        weight = 5
+      [[languages.en.menus.header]]
+        name = "Contact"
+        title = "Contact"
+        pageRef = "/contact"
+        weight = 6
+      [[languages.en.menus.footer]]
+        name = "License"
+        title = "License"
+        pageRef = "/license"
+        weight = 1
 
-  [[menu.header]]
-    name = "Research"
-    title = "Research"
-    url = "/published/"
+  [languages.es]
+    languageCode = "es-CL"
+    languageName = "Español"
+    title = "Melanie Oyarzún"
     weight = 2
-
-  [[menu.header]]
-    name = "Talks"
-    title = "Talks"
-    url = "/talk/"
-    weight = 3
-
-  [[menu.header]]
-    name = "Teaching"
-    title = "Teaching"
-    url = "/teaching/"
-    weight = 4
-
-  [[menu.header]]
-    name = "CV"
-    title = "CV"
-    url = "/cv/"
-    weight = 5
-
-  [[menu.header]]
-    name = "Contact"
-    title = "Contact"
-    url = "/contact/"
-    weight = 6
-
-  [[menu.footer]]
-    name = "License"
-    title = "License"
-    url = "/license/"
-    weight = 1
+    [languages.es.params]
+      description = "Investigadora postdoctoral en CCL Budapest"
+    [languages.es.menus]
+      [[languages.es.menus.header]]
+        name = "Sobre mí"
+        title = "Sobre mí"
+        pageRef = "/about"
+        weight = 1
+      [[languages.es.menus.header]]
+        name = "Investigación"
+        title = "Investigación"
+        pageRef = "/published"
+        weight = 2
+      [[languages.es.menus.header]]
+        name = "Charlas"
+        title = "Charlas"
+        pageRef = "/talk"
+        weight = 3
+      [[languages.es.menus.header]]
+        name = "Docencia"
+        title = "Docencia"
+        pageRef = "/teaching"
+        weight = 4
+      [[languages.es.menus.header]]
+        name = "CV"
+        title = "CV"
+        pageRef = "/cv"
+        weight = 5
+      [[languages.es.menus.header]]
+        name = "Contacto"
+        title = "Contacto"
+        pageRef = "/contact"
+        weight = 6
+      [[languages.es.menus.footer]]
+        name = "Licencia"
+        title = "Licencia"
+        pageRef = "/license"
+        weight = 1
 
 [privacy]
   [privacy.disqus]
@@ -149,8 +198,9 @@ enableEmoji = true
     simple = true
   [privacy.twitter]
     disable = false
-    enableDNT = true
     simple = false
+  [privacy.x]
+    enableDNT = true
   [privacy.vimeo]
     disable = false
     enableDNT = true
