@@ -7,6 +7,7 @@ description: |
 image_left: false
 images:
 - img/0TD3gXMJ.jpeg
+mobile_image: /img/IMG_2811small.jpeg
 show_action_link: true
 show_social_links: true
 subtitle: Exploring how social structure shapes inequality with experiments and large-scale data.
@@ -17,4 +18,3 @@ type: home
 
 ** index doesn't contain a body, just front matter above.
 See index.html in the layouts folder **
-

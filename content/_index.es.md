@@ -7,6 +7,7 @@ description: |
 image_left: false
 images:
 - img/0TD3gXMJ.jpeg
+mobile_image: /img/IMG_2811small.jpeg
 show_action_link: true
 show_social_links: true
 subtitle: Explorando cómo la estructura social moldea la desigualdad con experimentos y datos a gran escala.

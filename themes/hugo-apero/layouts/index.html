@@ -12,7 +12,14 @@
       </div>
       <div class="tr w-50-l {{ if .Params.image_left }}ml4{{ else }}mr4{{ end }}">
       {{ with .Params.images }}
-        {{ range first 1 . }}<img class="mv0 w-70-m" src="{{ . | relURL }}" alt="{{ $.Site.Title }}"/>{{ end }}
+        {{ range first 1 . }}
+        <picture>
+          {{ with $.Params.mobile_image }}
+          <source media="(max-width: 768px)" srcset="{{ . | relURL }}">
+          {{ end }}
+          <img class="mv0 w-70-m" src="{{ . | relURL }}" alt="{{ $.Site.Title }}"/>
+        </picture>
+        {{ end }}
       {{ end }}
       </div>
     </div>
