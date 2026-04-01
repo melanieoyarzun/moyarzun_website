@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Workshop on Melanie Oyarzún</title>
-    <link>https://moyarzun.netlify.app/categories/workshop/</link>
+    <link>http://localhost:1314/categories/workshop/</link>
     <description>Recent content in Workshop on Melanie Oyarzún</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://moyarzun.netlify.app/categories/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/categories/workshop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WiDS Budapest Datathon · Budapest, Hungary</title>
-      <link>https://moyarzun.netlify.app/talk/wids-budapest-2025/</link>
+      <link>http://localhost:1314/talk/wids-budapest-2025/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/talk/wids-budapest-2025/</guid>
+      <guid>http://localhost:1314/talk/wids-budapest-2025/</guid>
       <description>&lt;p&gt;WiDS Budapest is one of the events I most wanted to document carefully because I was not only attending it, I was helping build it.&lt;/p&gt;&#xA;&lt;p&gt;In 2025 I served on the organizing committee and led the datathon for the first &lt;strong&gt;WiDS Budapest Datathon&lt;/strong&gt;, conceived as a local spinoff of the global WiDS Datathon. My role covered the parts of an event that usually disappear behind a short CV line: shaping the challenge, coordinating mentors, preparing materials, thinking through the participant experience, and helping the day run in a way that felt both technically serious and genuinely welcoming.&lt;/p&gt;</description>
     </item>
   </channel>

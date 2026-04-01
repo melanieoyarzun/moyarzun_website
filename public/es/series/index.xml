@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Melanie Oyarzún</title>
-    <link>https://moyarzun.netlify.app/es/series/</link>
+    <link>http://localhost:1314/es/series/</link>
     <description>Recent content in Series on Melanie Oyarzún</description>
     <generator>Hugo</generator>
     <language>es-CL</language>
-    <atom:link href="https://moyarzun.netlify.app/es/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/es/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

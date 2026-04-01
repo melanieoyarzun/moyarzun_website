@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conference on Melanie Oyarzún</title>
-    <link>https://moyarzun.netlify.app/es/categories/conference/</link>
+    <link>http://localhost:1314/es/categories/conference/</link>
     <description>Recent content in Conference on Melanie Oyarzún</description>
     <generator>Hugo</generator>
     <language>es-CL</language>
     <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://moyarzun.netlify.app/es/categories/conference/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/es/categories/conference/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CCS 2025 · Siena, Italia</title>
-      <link>https://moyarzun.netlify.app/es/talk/ccs-2025/</link>
+      <link>http://localhost:1314/es/talk/ccs-2025/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/talk/ccs-2025/</guid>
+      <guid>http://localhost:1314/es/talk/ccs-2025/</guid>
       <description>&lt;p&gt;En CCS 2025 participé con dos trabajos: una presentación sobre &lt;strong&gt;memoria colectiva local y global&lt;/strong&gt; y un póster sobre &lt;strong&gt;desigualdad basada en amistades en la cooperación infantil&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Me gusta que ambos tipos de participación queden registrados en un mismo lugar, porque los congresos muchas veces funcionan como hitos para varios proyectos al mismo tiempo. Con el tiempo esta página puede crecer hasta convertirse en un registro más rico, con diapositivas, imágenes del póster, fotos y breves ideas clave.&lt;/p&gt;</description>
     </item>
     <item>
       <title>IC2S2 2025 · Norrkoping, Suecia</title>
-      <link>https://moyarzun.netlify.app/es/talk/ic2s2-2025/</link>
+      <link>http://localhost:1314/es/talk/ic2s2-2025/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/talk/ic2s2-2025/</guid>
+      <guid>http://localhost:1314/es/talk/ic2s2-2025/</guid>
       <description>&lt;p&gt;En IC2S2 2025 presenté &lt;strong&gt;Unpacking Local and Global Collective Memory&lt;/strong&gt;, un proyecto conectado con memoria colectiva, proximidad cultural y datos sociales a gran escala.&lt;/p&gt;&#xA;&lt;p&gt;Este es exactamente el tipo de evento que quiero registrar mejor en el sitio: deja una huella de proyectos en movimiento, no solo de papers ya terminados. También me da un lugar para después adjuntar diapositivas, fotos o una breve reflexión que pueda adaptarse a un texto público más amplio.&lt;/p&gt;</description>
     </item>
     <item>
       <title>NetSci 2024 · Quebec, Canadá</title>
-      <link>https://moyarzun.netlify.app/es/talk/netsci2024/</link>
+      <link>http://localhost:1314/es/talk/netsci2024/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/talk/netsci2024/</guid>
+      <guid>http://localhost:1314/es/talk/netsci2024/</guid>
       <description>&lt;p&gt;Esta presentación en congreso se centró en un trabajo sobre &lt;strong&gt;heterogeneidad y homofilia en la retención académica de estudiantes STEM&lt;/strong&gt;. Formaba parte de una línea en desarrollo que conecta estructura de redes, persistencia y desigualdad en educación superior.&lt;/p&gt;&#xA;&lt;p&gt;Para mí, este evento también sirvió como punto de chequeo: ayudó a afinar cómo comunicar el proyecto a una audiencia más amplia de network science y marcó una transición hacia una formulación más explícita en torno a persistencia y estructura social.&lt;/p&gt;</description>
     </item>
     <item>
       <title>IC2S2 2023 · Copenhague, Dinamarca</title>
-      <link>https://moyarzun.netlify.app/es/talk/ic2s2-2023/</link>
+      <link>http://localhost:1314/es/talk/ic2s2-2023/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/talk/ic2s2-2023/</guid>
+      <guid>http://localhost:1314/es/talk/ic2s2-2023/</guid>
       <description>&lt;p&gt;En IC2S2 2023 presenté &lt;strong&gt;Friendship modulates hierarchical relations in public elementary schools&lt;/strong&gt;. Este proyecto se sitúa en la intersección entre desigualdad en la infancia, cooperación y estructura de redes sociales, y el congreso le dio una audiencia fuerte en ciencias sociales computacionales.&lt;/p&gt;&#xA;&lt;p&gt;Este es también el tipo de página que quiero seguir construyendo con el tiempo: no solo artículos terminados, sino la trayectoria misma de la investigación a través de congresos, presentaciones y colaboraciones.&lt;/p&gt;</description>
     </item>
     <item>
       <title>NetSci 2023 · Viena, Austria</title>
-      <link>https://moyarzun.netlify.app/es/talk/netsci2023/</link>
+      <link>http://localhost:1314/es/talk/netsci2023/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/talk/netsci2023/</guid>
+      <guid>http://localhost:1314/es/talk/netsci2023/</guid>
       <description>&lt;p&gt;En NetSci 2023 hice una lightning presentation sobre &lt;strong&gt;amistad y relaciones jerárquicas en escuelas públicas de educación básica&lt;/strong&gt;. Este trabajo se ubica en la intersección entre redes sociales, cooperación y desigualdad en entornos sociales infantiles.&lt;/p&gt;&#xA;&lt;p&gt;El formato breve fue especialmente útil para destilar el aporte central del proyecto en una narrativa compacta. También es el tipo de evento que quiero documentar mejor con el tiempo, porque después puede alimentar diapositivas, textos cortos y formas de comunicación pública.&lt;/p&gt;</description>
     </item>
     <item>
       <title>French Regional Conference on Complex Systems · Le Havre, Francia</title>
-      <link>https://moyarzun.netlify.app/es/talk/le-havre-2023/</link>
+      <link>http://localhost:1314/es/talk/le-havre-2023/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/talk/le-havre-2023/</guid>
+      <guid>http://localhost:1314/es/talk/le-havre-2023/</guid>
       <description>&lt;p&gt;En la French Regional Conference on Complex Systems presenté &lt;strong&gt;Unpacking popularity: volume, longevity, connectivity and globality&lt;/strong&gt;. Este trabajo formaba parte de una línea más amplia sobre memoria colectiva y dinámicas culturales, y me ayudó a afinar cómo enmarcar el proyecto para una audiencia interdisciplinaria de sistemas complejos.&lt;/p&gt;&#xA;&lt;p&gt;También quiero que esta sección del sitio capture escalas de congreso más pequeñas pero igualmente significativas como esta, porque muchas veces marcan el momento en que las ideas se vuelven más claras y comunicables.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Complex Networks Conference · Palermo, Italia</title>
-      <link>https://moyarzun.netlify.app/es/talk/palermo-2022/</link>
+      <link>http://localhost:1314/es/talk/palermo-2022/</link>
       <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/talk/palermo-2022/</guid>
+      <guid>http://localhost:1314/es/talk/palermo-2022/</guid>
       <description>&lt;p&gt;En la International Conference on Complex Networks en Palermo presenté &lt;strong&gt;Friendship modulates hierarchical relations in public elementary schools&lt;/strong&gt;. Este proyecto ya empezaba a tomar forma como parte de mi trabajo sobre estructura social, cooperación y desigualdad en contextos escolares.&lt;/p&gt;&#xA;&lt;p&gt;Páginas como esta ayudan a conservar la trayectoria de un proyecto a través de distintos espacios, en vez de mostrar solo su versión final publicada.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;&lt;h2 id=&#34;foto&#34;&gt;Foto&#xA;  &#xA;  &lt;a href=&#34;#foto&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;div class=&#34;talk-gallery&#34;&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;IMG_5665.jpeg&#34; alt=&#34;Momento de conferencia en Complex Networks en Palermo&#34; /&gt;&#xA;    &lt;figcaption&gt;Un momento del congreso en Palermo.&lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>EUSN 2022 · Londres, Reino Unido</title>
-      <link>https://moyarzun.netlify.app/es/talk/eusn-best-poster-2022/</link>
+      <link>http://localhost:1314/es/talk/eusn-best-poster-2022/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/talk/eusn-best-poster-2022/</guid>
+      <guid>http://localhost:1314/es/talk/eusn-best-poster-2022/</guid>
       <description>&lt;p&gt;En la European Conference on Social Networks presenté un póster sobre &lt;strong&gt;interacciones sociales y convivencia escolar en aulas neurodiversas de educación básica&lt;/strong&gt;. Este trabajo más tarde alimentó una línea de investigación más amplia sobre integración social, reciprocidad y estructura de redes en el aula.&lt;/p&gt;&#xA;&lt;p&gt;El evento fue especialmente significativo porque el póster recibió el premio &lt;strong&gt;Best Poster&lt;/strong&gt;. Me gustaría que esta página terminara guardando la imagen del póster, una breve explicación del proyecto y notas que después puedan convertirse en un post de LinkedIn o un resumen público.&lt;/p&gt;</description>
     </item>
   </channel>

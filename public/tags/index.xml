@@ -2,115 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Melanie Oyarzún</title>
-    <link>https://moyarzun.netlify.app/tags/</link>
+    <link>http://localhost:1314/tags/</link>
     <description>Recent content in Tags on Melanie Oyarzún</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://moyarzun.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Autism</title>
-      <link>https://moyarzun.netlify.app/tags/autism/</link>
+      <link>http://localhost:1314/tags/autism/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/tags/autism/</guid>
+      <guid>http://localhost:1314/tags/autism/</guid>
       <description></description>
     </item>
     <item>
       <title>Experimental Game Theory</title>
-      <link>https://moyarzun.netlify.app/tags/experimental-game-theory/</link>
+      <link>http://localhost:1314/tags/experimental-game-theory/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/tags/experimental-game-theory/</guid>
+      <guid>http://localhost:1314/tags/experimental-game-theory/</guid>
       <description></description>
     </item>
     <item>
       <title>Inclusive Education</title>
-      <link>https://moyarzun.netlify.app/tags/inclusive-education/</link>
+      <link>http://localhost:1314/tags/inclusive-education/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/tags/inclusive-education/</guid>
+      <guid>http://localhost:1314/tags/inclusive-education/</guid>
       <description></description>
     </item>
     <item>
       <title>Neurodevelopment</title>
-      <link>https://moyarzun.netlify.app/tags/neurodevelopment/</link>
+      <link>http://localhost:1314/tags/neurodevelopment/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/tags/neurodevelopment/</guid>
+      <guid>http://localhost:1314/tags/neurodevelopment/</guid>
       <description></description>
     </item>
     <item>
       <title>Social Networks</title>
-      <link>https://moyarzun.netlify.app/tags/social-networks/</link>
+      <link>http://localhost:1314/tags/social-networks/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/tags/social-networks/</guid>
+      <guid>http://localhost:1314/tags/social-networks/</guid>
       <description></description>
     </item>
     <item>
       <title>Academic Performance</title>
-      <link>https://moyarzun.netlify.app/tags/academic-performance/</link>
+      <link>http://localhost:1314/tags/academic-performance/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/tags/academic-performance/</guid>
+      <guid>http://localhost:1314/tags/academic-performance/</guid>
       <description></description>
     </item>
     <item>
       <title>Chile</title>
-      <link>https://moyarzun.netlify.app/tags/chile/</link>
+      <link>http://localhost:1314/tags/chile/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/tags/chile/</guid>
+      <guid>http://localhost:1314/tags/chile/</guid>
       <description></description>
     </item>
     <item>
       <title>Cooperation</title>
-      <link>https://moyarzun.netlify.app/tags/cooperation/</link>
+      <link>http://localhost:1314/tags/cooperation/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/tags/cooperation/</guid>
+      <guid>http://localhost:1314/tags/cooperation/</guid>
       <description></description>
     </item>
     <item>
       <title>Elementary Education</title>
-      <link>https://moyarzun.netlify.app/tags/elementary-education/</link>
+      <link>http://localhost:1314/tags/elementary-education/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/tags/elementary-education/</guid>
+      <guid>http://localhost:1314/tags/elementary-education/</guid>
       <description></description>
     </item>
     <item>
       <title>Childcare</title>
-      <link>https://moyarzun.netlify.app/tags/childcare/</link>
+      <link>http://localhost:1314/tags/childcare/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/tags/childcare/</guid>
+      <guid>http://localhost:1314/tags/childcare/</guid>
       <description></description>
     </item>
     <item>
       <title>Education Policy</title>
-      <link>https://moyarzun.netlify.app/tags/education-policy/</link>
+      <link>http://localhost:1314/tags/education-policy/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/tags/education-policy/</guid>
+      <guid>http://localhost:1314/tags/education-policy/</guid>
       <description></description>
     </item>
     <item>
       <title>Gender</title>
-      <link>https://moyarzun.netlify.app/tags/gender/</link>
+      <link>http://localhost:1314/tags/gender/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/tags/gender/</guid>
+      <guid>http://localhost:1314/tags/gender/</guid>
       <description></description>
     </item>
     <item>
       <title>Labor Economics</title>
-      <link>https://moyarzun.netlify.app/tags/labor-economics/</link>
+      <link>http://localhost:1314/tags/labor-economics/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/tags/labor-economics/</guid>
+      <guid>http://localhost:1314/tags/labor-economics/</guid>
       <description></description>
     </item>
     <item>
       <title>Style</title>
-      <link>https://moyarzun.netlify.app/tags/style/</link>
+      <link>http://localhost:1314/tags/style/</link>
       <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/tags/style/</guid>
+      <guid>http://localhost:1314/tags/style/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo-Site</title>
-      <link>https://moyarzun.netlify.app/tags/hugo-site/</link>
+      <link>http://localhost:1314/tags/hugo-site/</link>
       <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/tags/hugo-site/</guid>
+      <guid>http://localhost:1314/tags/hugo-site/</guid>
       <description></description>
     </item>
   </channel>

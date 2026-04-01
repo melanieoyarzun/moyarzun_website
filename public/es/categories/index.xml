@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Melanie Oyarzún</title>
-    <link>https://moyarzun.netlify.app/es/categories/</link>
+    <link>http://localhost:1314/es/categories/</link>
     <description>Recent content in Categories on Melanie Oyarzún</description>
     <generator>Hugo</generator>
     <language>es-CL</language>
     <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://moyarzun.netlify.app/es/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/es/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Community</title>
-      <link>https://moyarzun.netlify.app/es/categories/community/</link>
+      <link>http://localhost:1314/es/categories/community/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/categories/community/</guid>
+      <guid>http://localhost:1314/es/categories/community/</guid>
       <description></description>
     </item>
     <item>
       <title>Workshop</title>
-      <link>https://moyarzun.netlify.app/es/categories/workshop/</link>
+      <link>http://localhost:1314/es/categories/workshop/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/categories/workshop/</guid>
+      <guid>http://localhost:1314/es/categories/workshop/</guid>
       <description></description>
     </item>
     <item>
       <title>Conference</title>
-      <link>https://moyarzun.netlify.app/es/categories/conference/</link>
+      <link>http://localhost:1314/es/categories/conference/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/categories/conference/</guid>
+      <guid>http://localhost:1314/es/categories/conference/</guid>
       <description></description>
     </item>
     <item>
       <title>Poster</title>
-      <link>https://moyarzun.netlify.app/es/categories/poster/</link>
+      <link>http://localhost:1314/es/categories/poster/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/categories/poster/</guid>
+      <guid>http://localhost:1314/es/categories/poster/</guid>
       <description></description>
     </item>
     <item>
       <title>Article</title>
-      <link>https://moyarzun.netlify.app/es/categories/article/</link>
+      <link>http://localhost:1314/es/categories/article/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/categories/article/</guid>
+      <guid>http://localhost:1314/es/categories/article/</guid>
       <description></description>
     </item>
     <item>
       <title>Outreach</title>
-      <link>https://moyarzun.netlify.app/es/categories/outreach/</link>
+      <link>http://localhost:1314/es/categories/outreach/</link>
       <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/categories/outreach/</guid>
+      <guid>http://localhost:1314/es/categories/outreach/</guid>
       <description></description>
     </item>
     <item>
       <title>Award</title>
-      <link>https://moyarzun.netlify.app/es/categories/award/</link>
+      <link>http://localhost:1314/es/categories/award/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/categories/award/</guid>
+      <guid>http://localhost:1314/es/categories/award/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,704 +2,704 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://moyarzun.netlify.app/collection/econometrics/01-netlify/</loc>
+    <loc>http://localhost:1313/collection/econometrics/01-netlify/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/blog/spoonful-series/01-spoonful/</loc>
+    <loc>http://localhost:1313/blog/spoonful-series/01-spoonful/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/collection/economics/01-github/</loc>
+    <loc>http://localhost:1313/collection/economics/01-github/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/collection/data-analysis/</loc>
+    <loc>http://localhost:1313/collection/data-analysis/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/collection/economics/</loc>
+    <loc>http://localhost:1313/collection/economics/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/collection/economics/02-postcards/</loc>
+    <loc>http://localhost:1313/collection/economics/02-postcards/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/blog/spoonful-series/02-spoonful/</loc>
+    <loc>http://localhost:1313/blog/spoonful-series/02-spoonful/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/collection/econometrics/02-blogdown/</loc>
+    <loc>http://localhost:1313/collection/econometrics/02-blogdown/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/collection/econometrics/</loc>
+    <loc>http://localhost:1313/collection/econometrics/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/blog/spoonful-series/03-spoonful/</loc>
+    <loc>http://localhost:1313/blog/spoonful-series/03-spoonful/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/collection/economics/03-distill/</loc>
+    <loc>http://localhost:1313/collection/economics/03-distill/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/collection/econometrics/03-blogdown/</loc>
+    <loc>http://localhost:1313/collection/econometrics/03-blogdown/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/categories/"
+                href="http://localhost:1313/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/categories/"
+                href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/categories/community/</loc>
+    <loc>http://localhost:1313/categories/community/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/categories/community/"
+                href="http://localhost:1313/es/categories/community/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/categories/community/"
+                href="http://localhost:1313/categories/community/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/"
+                href="http://localhost:1313/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/"
+                href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/talk/</loc>
+    <loc>http://localhost:1313/talk/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/talk/"
+                href="http://localhost:1313/es/talk/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/talk/"
+                href="http://localhost:1313/talk/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/talk/wids-budapest-2025/</loc>
+    <loc>http://localhost:1313/talk/wids-budapest-2025/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/talk/wids-budapest-2025/"
+                href="http://localhost:1313/es/talk/wids-budapest-2025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/talk/wids-budapest-2025/"
+                href="http://localhost:1313/talk/wids-budapest-2025/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/categories/workshop/</loc>
+    <loc>http://localhost:1313/categories/workshop/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/categories/workshop/"
+                href="http://localhost:1313/es/categories/workshop/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/categories/workshop/"
+                href="http://localhost:1313/categories/workshop/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/talk/ccs-2025/</loc>
+    <loc>http://localhost:1313/talk/ccs-2025/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/talk/ccs-2025/"
+                href="http://localhost:1313/es/talk/ccs-2025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/talk/ccs-2025/"
+                href="http://localhost:1313/talk/ccs-2025/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/categories/conference/</loc>
+    <loc>http://localhost:1313/categories/conference/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/categories/conference/"
+                href="http://localhost:1313/es/categories/conference/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/categories/conference/"
+                href="http://localhost:1313/categories/conference/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/categories/poster/</loc>
+    <loc>http://localhost:1313/categories/poster/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/categories/poster/"
+                href="http://localhost:1313/es/categories/poster/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/categories/poster/"
+                href="http://localhost:1313/categories/poster/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/talk/ic2s2-2025/</loc>
+    <loc>http://localhost:1313/talk/ic2s2-2025/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/talk/ic2s2-2025/"
+                href="http://localhost:1313/es/talk/ic2s2-2025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/talk/ic2s2-2025/"
+                href="http://localhost:1313/talk/ic2s2-2025/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/categories/article/</loc>
+    <loc>http://localhost:1313/categories/article/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/categories/article/"
+                href="http://localhost:1313/es/categories/article/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/categories/article/"
+                href="http://localhost:1313/categories/article/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/tags/autism/</loc>
+    <loc>http://localhost:1313/tags/autism/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/tags/autism/"
+                href="http://localhost:1313/es/tags/autism/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/tags/autism/"
+                href="http://localhost:1313/tags/autism/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/published/autism-and-reciprocity/</loc>
+    <loc>http://localhost:1313/published/autism-and-reciprocity/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/published/autism-and-reciprocity/"
+                href="http://localhost:1313/es/published/autism-and-reciprocity/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/published/autism-and-reciprocity/"
+                href="http://localhost:1313/published/autism-and-reciprocity/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/tags/experimental-game-theory/</loc>
+    <loc>http://localhost:1313/tags/experimental-game-theory/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/tags/experimental-game-theory/"
+                href="http://localhost:1313/es/tags/experimental-game-theory/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/tags/experimental-game-theory/"
+                href="http://localhost:1313/tags/experimental-game-theory/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/tags/inclusive-education/</loc>
+    <loc>http://localhost:1313/tags/inclusive-education/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/tags/inclusive-education/"
+                href="http://localhost:1313/es/tags/inclusive-education/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/tags/inclusive-education/"
+                href="http://localhost:1313/tags/inclusive-education/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/tags/neurodevelopment/</loc>
+    <loc>http://localhost:1313/tags/neurodevelopment/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/tags/neurodevelopment/"
+                href="http://localhost:1313/es/tags/neurodevelopment/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/tags/neurodevelopment/"
+                href="http://localhost:1313/tags/neurodevelopment/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/published/</loc>
+    <loc>http://localhost:1313/published/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/published/"
+                href="http://localhost:1313/es/published/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/published/"
+                href="http://localhost:1313/published/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/tags/social-networks/</loc>
+    <loc>http://localhost:1313/tags/social-networks/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/tags/social-networks/"
+                href="http://localhost:1313/es/tags/social-networks/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/tags/social-networks/"
+                href="http://localhost:1313/tags/social-networks/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/tags/"
+                href="http://localhost:1313/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/tags/"
+                href="http://localhost:1313/tags/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/talk/netsci2024/</loc>
+    <loc>http://localhost:1313/talk/netsci2024/</loc>
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/talk/netsci2024/"
+                href="http://localhost:1313/es/talk/netsci2024/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/talk/netsci2024/"
+                href="http://localhost:1313/talk/netsci2024/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/talk/ic2s2-2023/</loc>
+    <loc>http://localhost:1313/talk/ic2s2-2023/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/talk/ic2s2-2023/"
+                href="http://localhost:1313/es/talk/ic2s2-2023/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/talk/ic2s2-2023/"
+                href="http://localhost:1313/talk/ic2s2-2023/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/talk/netsci2023/</loc>
+    <loc>http://localhost:1313/talk/netsci2023/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/talk/netsci2023/"
+                href="http://localhost:1313/es/talk/netsci2023/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/talk/netsci2023/"
+                href="http://localhost:1313/talk/netsci2023/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/talk/le-havre-2023/</loc>
+    <loc>http://localhost:1313/talk/le-havre-2023/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/talk/le-havre-2023/"
+                href="http://localhost:1313/es/talk/le-havre-2023/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/talk/le-havre-2023/"
+                href="http://localhost:1313/talk/le-havre-2023/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/tags/academic-performance/</loc>
+    <loc>http://localhost:1313/tags/academic-performance/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/tags/academic-performance/"
+                href="http://localhost:1313/es/tags/academic-performance/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/tags/academic-performance/"
+                href="http://localhost:1313/tags/academic-performance/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/tags/chile/</loc>
+    <loc>http://localhost:1313/tags/chile/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/tags/chile/"
+                href="http://localhost:1313/es/tags/chile/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/tags/chile/"
+                href="http://localhost:1313/tags/chile/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/tags/cooperation/</loc>
+    <loc>http://localhost:1313/tags/cooperation/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/tags/cooperation/"
+                href="http://localhost:1313/es/tags/cooperation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/tags/cooperation/"
+                href="http://localhost:1313/tags/cooperation/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/tags/elementary-education/</loc>
+    <loc>http://localhost:1313/tags/elementary-education/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/tags/elementary-education/"
+                href="http://localhost:1313/es/tags/elementary-education/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/tags/elementary-education/"
+                href="http://localhost:1313/tags/elementary-education/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/published/reciprocity/</loc>
+    <loc>http://localhost:1313/published/reciprocity/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/published/reciprocity/"
+                href="http://localhost:1313/es/published/reciprocity/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/published/reciprocity/"
+                href="http://localhost:1313/published/reciprocity/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/talk/palermo-2022/</loc>
+    <loc>http://localhost:1313/talk/palermo-2022/</loc>
     <lastmod>2022-11-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/talk/palermo-2022/"
+                href="http://localhost:1313/es/talk/palermo-2022/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/talk/palermo-2022/"
+                href="http://localhost:1313/talk/palermo-2022/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/categories/outreach/</loc>
+    <loc>http://localhost:1313/categories/outreach/</loc>
     <lastmod>2022-10-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/categories/outreach/"
+                href="http://localhost:1313/es/categories/outreach/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/categories/outreach/"
+                href="http://localhost:1313/categories/outreach/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/talk/udd-science-fair-santiago/</loc>
+    <loc>http://localhost:1313/talk/udd-science-fair-santiago/</loc>
     <lastmod>2022-10-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/talk/udd-science-fair-santiago/"
+                href="http://localhost:1313/es/talk/udd-science-fair-santiago/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/talk/udd-science-fair-santiago/"
+                href="http://localhost:1313/talk/udd-science-fair-santiago/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/categories/award/</loc>
+    <loc>http://localhost:1313/categories/award/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/categories/award/"
+                href="http://localhost:1313/es/categories/award/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/categories/award/"
+                href="http://localhost:1313/categories/award/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/talk/eusn-best-poster-2022/</loc>
+    <loc>http://localhost:1313/talk/eusn-best-poster-2022/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/talk/eusn-best-poster-2022/"
+                href="http://localhost:1313/es/talk/eusn-best-poster-2022/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/talk/eusn-best-poster-2022/"
+                href="http://localhost:1313/talk/eusn-best-poster-2022/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/tags/childcare/</loc>
+    <loc>http://localhost:1313/tags/childcare/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/tags/childcare/"
+                href="http://localhost:1313/es/tags/childcare/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/tags/childcare/"
+                href="http://localhost:1313/tags/childcare/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/tags/education-policy/</loc>
+    <loc>http://localhost:1313/tags/education-policy/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/tags/education-policy/"
+                href="http://localhost:1313/es/tags/education-policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/tags/education-policy/"
+                href="http://localhost:1313/tags/education-policy/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/tags/gender/</loc>
+    <loc>http://localhost:1313/tags/gender/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/tags/gender/"
+                href="http://localhost:1313/es/tags/gender/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/tags/gender/"
+                href="http://localhost:1313/tags/gender/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/tags/labor-economics/</loc>
+    <loc>http://localhost:1313/tags/labor-economics/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/tags/labor-economics/"
+                href="http://localhost:1313/es/tags/labor-economics/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/tags/labor-economics/"
+                href="http://localhost:1313/tags/labor-economics/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/published/mothers-labor-force/</loc>
+    <loc>http://localhost:1313/published/mothers-labor-force/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/published/mothers-labor-force/"
+                href="http://localhost:1313/es/published/mothers-labor-force/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/published/mothers-labor-force/"
+                href="http://localhost:1313/published/mothers-labor-force/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/blog/social/</loc>
+    <loc>http://localhost:1313/blog/social/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/categories/theme-features/</loc>
+    <loc>http://localhost:1313/categories/theme-features/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/tags/style/</loc>
+    <loc>http://localhost:1313/tags/style/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/blog/color-themes/</loc>
+    <loc>http://localhost:1313/blog/color-themes/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/blog/fonts/</loc>
+    <loc>http://localhost:1313/blog/fonts/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/collection/</loc>
+    <loc>http://localhost:1313/collection/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/blog/evergreen/</loc>
+    <loc>http://localhost:1313/blog/evergreen/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/categories/evergreen/</loc>
+    <loc>http://localhost:1313/categories/evergreen/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/blog/spoonful-series/</loc>
+    <loc>http://localhost:1313/blog/spoonful-series/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/series/a-spoonful-of-hugo/</loc>
+    <loc>http://localhost:1313/series/a-spoonful-of-hugo/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/tags/hugo-site/</loc>
+    <loc>http://localhost:1313/tags/hugo-site/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/categories/r/</loc>
+    <loc>http://localhost:1313/categories/r/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/series/"
+                href="http://localhost:1313/es/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/series/"
+                href="http://localhost:1313/series/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/blog/seedling/</loc>
+    <loc>http://localhost:1313/blog/seedling/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/blog/rmarkdown/</loc>
+    <loc>http://localhost:1313/blog/rmarkdown/</loc>
     <lastmod>2020-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/blog/css-grid-scaffold/</loc>
+    <loc>http://localhost:1313/blog/css-grid-scaffold/</loc>
     <lastmod>2019-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/blog/built-in-contact-form/</loc>
+    <loc>http://localhost:1313/blog/built-in-contact-form/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/contact/"
+                href="http://localhost:1313/es/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/contact/"
+                href="http://localhost:1313/contact/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/elements/</loc>
+    <loc>http://localhost:1313/elements/</loc>
     <lastmod>2019-02-18T12:27:33-06:00</lastmod>
   </url><url>
-    <loc>https://moyarzun.netlify.app/about/header/</loc>
+    <loc>http://localhost:1313/about/header/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/about/header/"
+                href="http://localhost:1313/es/about/header/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/about/header/"
+                href="http://localhost:1313/about/header/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/about/sidebar/</loc>
+    <loc>http://localhost:1313/about/sidebar/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/about/sidebar/"
+                href="http://localhost:1313/es/about/sidebar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/about/sidebar/"
+                href="http://localhost:1313/about/sidebar/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/about/"
+                href="http://localhost:1313/es/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/about/"
+                href="http://localhost:1313/about/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/contributors/</loc>
+    <loc>http://localhost:1313/contributors/</loc>
   </url><url>
-    <loc>https://moyarzun.netlify.app/cv/</loc>
+    <loc>http://localhost:1313/cv/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/cv/"
+                href="http://localhost:1313/es/cv/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/cv/"
+                href="http://localhost:1313/cv/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/about/main/</loc>
+    <loc>http://localhost:1313/about/main/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/about/main/"
+                href="http://localhost:1313/es/about/main/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/about/main/"
+                href="http://localhost:1313/about/main/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/license/</loc>
+    <loc>http://localhost:1313/license/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/license/"
+                href="http://localhost:1313/es/license/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/license/"
+                href="http://localhost:1313/license/"
                 />
   </url><url>
-    <loc>https://moyarzun.netlify.app/publications/</loc>
+    <loc>http://localhost:1313/publications/</loc>
   </url><url>
-    <loc>https://moyarzun.netlify.app/project/</loc>
+    <loc>http://localhost:1313/project/</loc>
   </url><url>
-    <loc>https://moyarzun.netlify.app/teaching/</loc>
+    <loc>http://localhost:1313/teaching/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-CL"
-                href="https://moyarzun.netlify.app/es/teaching/"
+                href="http://localhost:1313/es/teaching/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://moyarzun.netlify.app/teaching/"
+                href="http://localhost:1313/teaching/"
                 />
   </url>
 </urlset>

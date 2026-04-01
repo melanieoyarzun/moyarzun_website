@@ -1,9 +1,0 @@
----
-title: Contact
----
-
-
--   Email: <melanie.oyarzun@gmail.com>
--   GitHub: [melanieoyarzun](https://github.com/melanieoyarzun)
--   Google Scholar: [profile](https://scholar.google.com/citations?user=8Om8OtIAAAAJ&hl=en)
--   YouTube: [channel](https://www.youtube.com/c/MelanieOyarzun)

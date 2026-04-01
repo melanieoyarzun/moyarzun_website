@@ -3,6 +3,7 @@ title: "Hola, soy Melanie."
 number_featured: 0
 use_featured: false
 number_categories: 0
+hide_heading_anchors: true
 show_intro: true
 intro: |
   Soy chilena, pero llevo un poco más de dos años viviendo en Budapest. Vine por un postdoc y terminé enamorándome un poco de la ciudad. Las termas ayudan.

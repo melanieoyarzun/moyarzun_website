@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Melanie Oyarzún</title>
-    <link>https://moyarzun.netlify.app/about/</link>
+    <link>http://localhost:1313/about/</link>
     <description>Recent content in About on Melanie Oyarzún</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="https://moyarzun.netlify.app/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://moyarzun.netlify.app/about/header/</link>
+      <link>http://localhost:1313/about/header/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/about/header/</guid>
+      <guid>http://localhost:1313/about/header/</guid>
       <description>&lt;p&gt;Researcher in computational social science, originally from Chile and currently based in Budapest.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://moyarzun.netlify.app/about/sidebar/</link>
+      <link>http://localhost:1313/about/sidebar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/about/sidebar/</guid>
+      <guid>http://localhost:1313/about/sidebar/</guid>
       <description>&lt;p&gt;** index doesn&amp;rsquo;t contain a body, just front matter above.&#xA;See about/list.html in the layouts folder **&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello, I am Melanie.</title>
-      <link>https://moyarzun.netlify.app/about/main/</link>
+      <link>http://localhost:1313/about/main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/about/main/</guid>
-      <description>&lt;p&gt;** index doesn&amp;rsquo;t contain a body, just front matter above.&#xA;See about/list.html in the layouts folder **&lt;/p&gt;</description>
+      <guid>http://localhost:1313/about/main/</guid>
+      <description>&lt;h2 id=&#34;outro&#34;&gt;ow_outro: false&#xA;outro:&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;** index doesn&amp;rsquo;t contain a body, just front matter above.&#xA;See about/list.htm&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

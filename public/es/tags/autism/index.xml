@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Autism on Melanie Oyarzún</title>
-    <link>https://moyarzun.netlify.app/es/tags/autism/</link>
+    <link>http://localhost:1314/es/tags/autism/</link>
     <description>Recent content in Autism on Melanie Oyarzún</description>
     <generator>Hugo</generator>
     <language>es-CL</language>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://moyarzun.netlify.app/es/tags/autism/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/es/tags/autism/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>El autismo moldea la integración social y la reciprocidad en salas de clase de educación básica</title>
-      <link>https://moyarzun.netlify.app/es/published/autism-and-reciprocity/</link>
+      <link>http://localhost:1314/es/published/autism-and-reciprocity/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/published/autism-and-reciprocity/</guid>
+      <guid>http://localhost:1314/es/published/autism-and-reciprocity/</guid>
       <description>&lt;div class=&#34;paper-citation-box&#34;&gt;&#xA;&lt;div class=&#34;citation-text&#34;&gt;&#xA;Soto-Icaza, P., Oyarzún, M., Yaikin, T., Arcos-Polanco, M., Candia, C., Rodríguez-Sickert, C., &amp; Billeke, P. (2025). Autism shapes social integration and reciprocity in elementary classrooms. &lt;em&gt;Scientific Reports&lt;/em&gt;, 15, 40473. &lt;a href=&#34;https://doi.org/10.1038/s41598-025-24190-6&#34;&gt;https://doi.org/10.1038/s41598-025-24190-6&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;citation-metrics&#34;&gt;&#xA;&lt;div class=&#34;altmetric-embed&#34; data-badge-type=&#34;donut&#34; data-badge-popover=&#34;right&#34; data-doi=&#34;10.1038/s41598-025-24190-6&#34;&gt;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;script type=&#34;text/javascript&#34; src=&#34;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#34;&gt;&lt;/script&gt;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;paper-key-question&#34;&gt;&#xA;&lt;div class=&#34;paper-key-question-label&#34;&gt;Pregunta clave&lt;/div&gt;&#xA;¿Qué papel juegan el autismo y otras necesidades educativas especiales en las relaciones sociales de niños y niñas dentro del aula?&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paper-lede&#34;&gt;&#xA;&lt;div class=&#34;paper-tldr&#34;&gt;&#xA;&lt;span class=&#34;tldr-label&#34;&gt;En breve&lt;/span&gt;&#xA;Usamos &lt;em&gt;El juego de las estrellas&lt;/em&gt;, un juego conductual en tablets conectadas, para mapear redes sociales entre pares en 26 salas de clase chilenas. Los niños y niñas autistas aparecen como significativamente más periféricos y menos involucrados en relaciones recíprocas que sus compañeros, mientras que estudiantes con TDAH no muestran diferencias significativas.&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paper-significance&#34;&gt;&#xA;&lt;div class=&#34;significance-label&#34;&gt;Por qué importa&lt;/div&gt;&#xA;La inclusión escolar suele medirse por asistencia o matrícula, no por si los niños y niñas están realmente entretejidos en la trama social de su curso. Este estudio entrega una medida conductual y ecológicamente válida de integración social, capaz de revelar desigualdades fuertes que permanecen invisibles en evaluaciones más convencionales, y apunta a la necesidad de repensar cómo diseñamos aulas inclusivas.&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paper-story-card&#34;&gt;&#xA;  &lt;div class=&#34;paper-story-top&#34;&gt;&#xA;    &lt;div&gt;&#xA;      &lt;div class=&#34;paper-story-kicker&#34;&gt;&lt;strong&gt;Experiencia complementaria: sitio scrollytelling&lt;/strong&gt;&lt;/div&gt;&#xA;      &lt;p class=&#34;paper-story-text&#34;&gt;Una versión bilingüe, más visual, del paper, con una red explorable y los principales resultados presentados de forma narrativa.&lt;/p&gt;</description>
     </item>
   </channel>

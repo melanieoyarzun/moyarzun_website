@@ -3,6 +3,7 @@ title: "Hello, I am Melanie."
 number_featured: 0
 use_featured: false
 number_categories: 0
+hide_heading_anchors: true
 show_intro: true
 intro: |
   I am Chilean, but I've been living in Budapest for a little over two years now. I came here for a postdoc and ended up falling a bit in love with the city. The thermal baths help.

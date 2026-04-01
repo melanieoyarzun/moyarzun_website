@@ -136,7 +136,7 @@ Uno de los videos metodológicos más vistos del canal es una clase sobre efecto
 
 ## Materiales docentes
 
-También estoy empezando a organizar materiales adicionales de cursos anteriores, incluyendo apuntes, guías de estudio, ejemplos resueltos y documentos de apoyo que desarrollé para mis estudiantes. Por ahora, aquí van dos sitios de cursos con materiales en español que he usado en docencia.
+También estoy empezando a organizar materiales adicionales de cursos anteriores, incluyendo apuntes, guías de estudio, ejemplos resueltos y documentos de apoyo que desarrollé para mis estudiantes. Por ahora, aquí va un sitio de curso con materiales en español que he usado en docencia.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
   <div style="background: #fff; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; padding: 1.2rem; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
@@ -144,17 +144,6 @@ También estoy empezando a organizar materiales adicionales de cursos anteriores
     <p>Un sitio de curso en español con apuntes, diapositivas, talleres y guía del proyecto final sobre preguntas de investigación, preparación de datos, regresión y series de tiempo.</p>
     <p style="margin-bottom: 0;">
       <a href="https://analisisdatosudd.netlify.app/" target="_blank" rel="noopener"
-         style="display: inline-block; background-color: #107685; color: white; font-weight: 600; padding: 0.5rem 0.9rem; border-radius: 6px; text-decoration: none; font-size: 0.95rem;">
-        Abrir materiales
-      </a>
-    </p>
-  </div>
-
-  <div style="background: #fff; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; padding: 1.2rem; box-shadow: 0 4px 14px rgba(0,0,0,0.06);">
-    <h4 style="margin-top: 0;">Curso de Network Science</h4>
-    <p>Un sitio de curso en español desarrollado junto a Cristian Candia, con diapositivas y notebooks prácticos sobre teoría de grafos, estructura de redes, centralidad y comunidades.</p>
-    <p style="margin-bottom: 0;">
-      <a href="https://networksudd.netlify.app/" target="_blank" rel="noopener"
          style="display: inline-block; background-color: #107685; color: white; font-weight: 600; padding: 0.5rem 0.9rem; border-radius: 6px; text-decoration: none; font-size: 0.95rem;">
         Abrir materiales
       </a>

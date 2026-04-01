@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Community on Melanie Oyarzún</title>
-    <link>https://moyarzun.netlify.app/es/categories/community/</link>
+    <link>http://localhost:1314/es/categories/community/</link>
     <description>Recent content in Community on Melanie Oyarzún</description>
     <generator>Hugo</generator>
     <language>es-CL</language>
     <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://moyarzun.netlify.app/es/categories/community/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/es/categories/community/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WiDS Budapest Datathon · Budapest, Hungría</title>
-      <link>https://moyarzun.netlify.app/es/talk/wids-budapest-2025/</link>
+      <link>http://localhost:1314/es/talk/wids-budapest-2025/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/talk/wids-budapest-2025/</guid>
+      <guid>http://localhost:1314/es/talk/wids-budapest-2025/</guid>
       <description>&lt;p&gt;WiDS Budapest es uno de los eventos que más quería documentar con cuidado porque no solo asistí: ayudé a construirlo.&lt;/p&gt;&#xA;&lt;p&gt;En 2025 integré el comité organizador y lideré el datathon de la primera &lt;strong&gt;WiDS Budapest Datathon&lt;/strong&gt;, concebida como una extensión local del datathon global de WiDS. Mi rol abarcó esas partes de un evento que normalmente desaparecen detrás de una línea breve en el CV: diseñar el desafío, coordinar mentores, preparar materiales, pensar la experiencia de las personas participantes y ayudar a que la jornada se desarrollara de una forma técnicamente seria y genuinamente acogedora.&lt;/p&gt;</description>
     </item>
     <item>
       <title>UDD Science Fair · Santiago, Chile</title>
-      <link>https://moyarzun.netlify.app/es/talk/udd-science-fair-santiago/</link>
+      <link>http://localhost:1314/es/talk/udd-science-fair-santiago/</link>
       <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/talk/udd-science-fair-santiago/</guid>
+      <guid>http://localhost:1314/es/talk/udd-science-fair-santiago/</guid>
       <description>&lt;p&gt;También quiero que esta sección registre eventos que quedan fuera del circuito típico de congresos. Estas fotos son de la &lt;strong&gt;UDD Science Fair en Santiago&lt;/strong&gt;, una instancia para compartir investigación en un entorno universitario más abierto y conectar trabajo en curso con una audiencia más amplia.&lt;/p&gt;&#xA;&lt;p&gt;Eso me importa porque la comunicación académica no pasa solo por presentaciones formales en congresos; también incluye docencia, divulgación y esos momentos más públicos en que las ideas empiezan a circular.&lt;/p&gt;</description>
     </item>
   </channel>

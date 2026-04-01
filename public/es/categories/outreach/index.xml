@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Outreach on Melanie Oyarzún</title>
-    <link>https://moyarzun.netlify.app/es/categories/outreach/</link>
+    <link>http://localhost:1314/es/categories/outreach/</link>
     <description>Recent content in Outreach on Melanie Oyarzún</description>
     <generator>Hugo</generator>
     <language>es-CL</language>
     <lastBuildDate>Thu, 06 Oct 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://moyarzun.netlify.app/es/categories/outreach/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/es/categories/outreach/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UDD Science Fair · Santiago, Chile</title>
-      <link>https://moyarzun.netlify.app/es/talk/udd-science-fair-santiago/</link>
+      <link>http://localhost:1314/es/talk/udd-science-fair-santiago/</link>
       <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://moyarzun.netlify.app/es/talk/udd-science-fair-santiago/</guid>
+      <guid>http://localhost:1314/es/talk/udd-science-fair-santiago/</guid>
       <description>&lt;p&gt;También quiero que esta sección registre eventos que quedan fuera del circuito típico de congresos. Estas fotos son de la &lt;strong&gt;UDD Science Fair en Santiago&lt;/strong&gt;, una instancia para compartir investigación en un entorno universitario más abierto y conectar trabajo en curso con una audiencia más amplia.&lt;/p&gt;&#xA;&lt;p&gt;Eso me importa porque la comunicación académica no pasa solo por presentaciones formales en congresos; también incluye docencia, divulgación y esos momentos más públicos en que las ideas empiezan a circular.&lt;/p&gt;</description>
     </item>
   </channel>
