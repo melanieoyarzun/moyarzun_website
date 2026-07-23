@@ -10,7 +10,7 @@ intro: |
 
   Antes de eso pasé la mayor parte de mi vida entre Valparaíso, Concepción y Santiago, donde hice casi toda mi formación. Además viví 8 meses en Toulouse, Francia, y 5 en Millersville, Pennsylvania, en Estados Unidos.
 
-  Fuera del trabajo me gusta dibujar, leer novelas de fantasía y perderme en un buen cómic.
+  Fuera del trabajo me gusta dibujar, leer novelas de fantasía y perderme en una buena lectura.
 
   ## Mi trabajo
 

@@ -3,14 +3,14 @@ action_label: Explore my research &rarr;
 action_link: /published/
 action_type: text
 description: |
-  Hi! I’m Melanie, a Chilean researcher 🇨🇱 based in Budapest 🇭🇺. I study social interaction and recognition using network analysis and causal approaches, across classrooms and knowledge systems. My work examines social hierarchy and friendship, as well as reciprocity, neurodivergence, and gender.
+  Hi! I’m Melanie, a Chilean researcher 🇨🇱 based in Budapest 🇭🇺. I study how social relationships shape learning, opportunity, and inequality, from children’s friendships in the classroom to women’s access to work. I work with network science, causal inference, and behavioral experiments.
 image_left: false
 images:
 - img/0TD3gXMJ.jpeg
 mobile_image: /img/IMG_2811small.jpeg
 show_action_link: true
 show_social_links: true
-subtitle: Exploring how social structure shapes inequality with experiments and large-scale data.
+subtitle: Using networks, experiments, and large-scale data to understand learning, inclusion, and inequality.
 text_align_left: true
 title: Melanie Oyarzún
 type: home

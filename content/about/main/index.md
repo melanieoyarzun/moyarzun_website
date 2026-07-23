@@ -10,7 +10,7 @@ intro: |
 
   Before that I spent most of my life between Valparaíso, Concepción and Santiago, where I did most of my education. Plus 8 months I lived in Toulouse, France and 5 in Millersville PA, USA.
 
-  Outside work I enjoy drawing, fantasy novels, and getting lost in a good comic.
+  Outside work I enjoy drawing, fantasy novels, and getting lost in a good read.
 
   ## My work
 
