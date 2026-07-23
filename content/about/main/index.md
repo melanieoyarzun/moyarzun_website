@@ -10,13 +10,13 @@ intro: |
 
   Before that I spent most of my life between Valparaíso, Concepción and Santiago, where I did most of my education. Plus 8 months I lived in Toulouse, France and 5 in Millersville PA, USA.
 
-  Outside work I enjoy drawing, fantasy novels, and getting lost in a good read.
+  Outside work I enjoy drawing, fantasy novels, and getting lost in a good comic.
 
   ## My work
 
   I'm a researcher who has also spent several years teaching economics and data science at the university level. I loved teaching because it meant turning complex ideas into conversations people could actually enter and make their own.
 
-  Now I work as a **Postdoctoral Research Fellow** at the [Center for Collective Learning](https://centerforcollectivelearning.org/) (Corvinus University of Budapest), led by César Hidalgo. I'm also a collaborator at the [CRISS Lab](https://criss-lab.com/) at Universidad del Desarrollo in Chile, where I work alongside Cristian Candia and Carlos Rodríguez-Sickert.
+  Now I work as a **Postdoctoral Research Fellow** at the [Center for Collective Learning](https://centerforcollectivelearning.org/) (Corvinus University of Budapest), led by [César Hidalgo](https://cesarhidalgo.com/). I'm also a collaborator at the [CRISS Lab](https://criss-lab.com/) at Universidad del Desarrollo in Chile, where I work alongside [Cristian Candia](https://crcandia.com/) and [Carlos Rodríguez-Sickert](https://investigadores.udd.cl/items/8f2cd90c-9a4c-4487-a9d2-350377d08aac).
 
   My research asks how social relationships shape outcomes in classrooms, labor markets, and society more broadly. I study how children's friendships affect learning, how policy design can remove barriers to women's labor force participation, and how collective memory and cultural proximity shape behavior. My work sits at the intersection of **social networks, cooperation, inequality, and education policy**, and combines computational methods, applied econometrics, and behavioral experiments.
 

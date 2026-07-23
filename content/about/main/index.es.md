@@ -10,13 +10,13 @@ intro: |
 
   Antes de eso pasé la mayor parte de mi vida entre Valparaíso, Concepción y Santiago, donde hice casi toda mi formación. Además viví 8 meses en Toulouse, Francia, y 5 en Millersville, Pennsylvania, en Estados Unidos.
 
-  Fuera del trabajo me gusta dibujar, leer novelas de fantasía y perderme en una buena lectura.
+  Fuera del trabajo me gusta dibujar, leer novelas de fantasía y perderme en un buen cómic.
 
   ## Mi trabajo
 
   Soy investigadora, pero también pasé varios años enseñando economía y ciencia de datos a nivel universitario. Me gustaba enseñar porque significaba convertir ideas complejas en conversaciones a las que otras personas realmente pudieran entrar y apropiarse.
 
-  Hoy trabajo como **Postdoctoral Research Fellow** en el [Center for Collective Learning](https://centerforcollectivelearning.org/) (Corvinus University of Budapest), dirigido por César Hidalgo. También colaboro en el [CRISS Lab](https://criss-lab.com/) de la Universidad del Desarrollo en Chile, donde trabajo junto a Cristian Candia y Carlos Rodríguez-Sickert.
+  Hoy trabajo como **Postdoctoral Research Fellow** en el [Center for Collective Learning](https://centerforcollectivelearning.org/) (Corvinus University of Budapest), dirigido por [César Hidalgo](https://cesarhidalgo.com/). También colaboro en el [CRISS Lab](https://criss-lab.com/) de la Universidad del Desarrollo en Chile, donde trabajo junto a [Cristian Candia](https://crcandia.com/) y [Carlos Rodríguez-Sickert](https://investigadores.udd.cl/items/8f2cd90c-9a4c-4487-a9d2-350377d08aac).
 
   Mi investigación pregunta cómo las relaciones sociales moldean resultados en salas de clase, mercados laborales y la sociedad en general. Estudio cómo las amistades de niños y niñas afectan el aprendizaje, cómo el diseño de políticas puede remover barreras para la participación laboral femenina y cómo la memoria colectiva y la proximidad cultural moldean la conducta. Mi trabajo se sitúa en la intersección entre **redes sociales, cooperación, desigualdad y política educativa**, y combina métodos computacionales, econometría aplicada y experimentos conductuales.
 
