@@ -8,13 +8,13 @@ excerpt: "Combining multilingual Wikipedia pageviews with a large-scale trivia e
 featured: true
 layout: paper-single
 links:
-- icon: book-open
+- icon: gamepad
   icon_pack: fas
-  name: PNAS Nexus
-  url: https://academic.oup.com/pnasnexus
+  name: Play Pantheon Trivia Game
+  url: https://pantheon.world/game/trivia
 show_post_time: false
 show_author_byline: false
-subtitle: "PNAS Nexus · forthcoming · Open Access"
+subtitle: "Accepted on PNAS NEXUS - Forthcoming"
 tags:
 - collective memory
 - cultural proximity
@@ -27,7 +27,8 @@ title: Cultural Proximity Reveals a Local Premium in Collective Memory
 
 <div class="paper-citation-box">
 <div class="citation-text">
-Macedo, M., Oyarzún, M., Candia, C., & Hidalgo, C. A. (forthcoming). Cultural Proximity Reveals a Local Premium in Collective Memory. <em>PNAS Nexus</em>. Provisionally accepted for publication on August 21, 2026.
+<span class="tldr-label">Accepted on PNAS NEXUS - Forthcoming</span><br>
+Macedo, M., Oyarzún, M., Candia, C., & Hidalgo, C. A. (forthcoming). Cultural Proximity Reveals a Local Premium in Collective Memory. <em>PNAS Nexus</em>.
 </div>
 </div>
 
@@ -36,6 +37,11 @@ Macedo, M., Oyarzún, M., Candia, C., & Hidalgo, C. A. (forthcoming). Cultural P
 <div class="paper-key-question">
 <div class="paper-key-question-label">Key question</div>
 When people remember historical figures, how much of that memory reflects global fame, and how much reflects cultural proximity?
+</div>
+
+<div class="paper-key-question">
+<div class="paper-key-question-label">Core idea</div>
+Napoleon and Bernardo O'Higgins are both military and political figures deeply tied to national history: Napoleon to France, and O'Higgins to Chile. But their fame circulates differently. Napoleon is recognized across many countries and languages, while O'Higgins is remembered much more strongly within Chile and its cultural orbit. This paper formalizes that difference by separating and measuring the local and global components of collective memory, and then asks how cultural proximity, such as sharing a country or language, shapes who people remember.
 </div>
 
 <div class="paper-lede">

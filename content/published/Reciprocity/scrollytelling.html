@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Reciprocidad y rendimiento — scrollytelling</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #F2EEF0;
+    --ink: #132B27;
+    --ink-soft: #4B5E5A;
+    --teal: #0E8B84;
+    --terra: #C75B24;
+    --ivory: #F8F3EA;
+    --rule: rgba(19,43,39,.18);
+    --muted: #8a8378;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:"Inter",system-ui,sans-serif;-webkit-font-smoothing:antialiased;}
+  body{line-height:1.55}
+  a{color:var(--teal)}
+  .serif{font-family:"DM Serif Display", Georgia, serif;font-weight:400;letter-spacing:-.01em}
+  .smallcaps{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);font-weight:600}
+
+  /* HERO */
+  .hero{min-height:88vh;display:grid;grid-template-columns:1.05fr .95fr;gap:6vw;padding:9vh 8vw 6vh;align-items:center;}
+  .hero .eyebrow{display:flex;gap:.6rem;align-items:center;margin-bottom:1.4rem}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--terra)}
+  .hero h1{font-size:clamp(2.4rem,4.6vw,4.6rem);line-height:1.02;margin:0 0 1.2rem}
+  .hero .lede{font-size:clamp(1.05rem,1.25vw,1.25rem);color:var(--ink-soft);max-width:38ch;margin-bottom:2.2rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:1.1rem 2rem;color:var(--ink-soft);font-size:.92rem}
+  .hero .meta b{color:var(--ink);font-weight:600}
+  .hero .scroll-cue{margin-top:3.2rem;font-size:.78rem;letter-spacing:.22em;color:var(--ink-soft);text-transform:uppercase}
+  .hero .scroll-cue:after{content:"";display:inline-block;width:1px;height:28px;background:var(--ink-soft);margin-left:.8rem;vertical-align:middle;opacity:.5}
+  .hero figure{margin:0;aspect-ratio:1/1;position:relative}
+  .hero figure svg{width:100%;height:100%}
+
+  /* SCROLLY */
+  .scrolly{position:relative;display:grid;grid-template-columns:minmax(360px,40%) 1fr;gap:3vw;padding:4vh 8vw 12vh;}
+  .scrolly .text-col{display:flex;flex-direction:column;gap:42vh}
+  .step{min-height:62vh;display:flex;flex-direction:column;justify-content:center;padding:4vh 0;opacity:.28;transition:opacity .5s ease;}
+  .step.is-active{opacity:1}
+  .step .step-num{font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;color:var(--terra);font-weight:600;margin-bottom:.9rem}
+  .step h2{font-size:clamp(1.7rem,2.4vw,2.4rem);line-height:1.08;margin:0 0 .9rem}
+  .step p{font-size:1.02rem;color:var(--ink-soft);max-width:38ch;margin:.4rem 0}
+  .step .note{font-size:.86rem;color:var(--muted);margin-top:1rem;max-width:38ch;border-left:2px solid var(--rule);padding-left:.9rem}
+  .step .pill{display:inline-flex;align-items:center;gap:.5rem;background:var(--ivory);border:1px solid var(--rule);border-radius:999px;padding:.35rem .8rem;font-size:.78rem;color:var(--ink);margin-bottom:1rem;width:fit-content}
+  .step .pill .swatch{width:.55rem;height:.55rem;border-radius:50%;background:var(--teal)}
+
+  /* sticky stage */
+  .figure-col{position:relative}
+  .figure-col .sticky{position:sticky;top:6vh;height:88vh;display:flex;align-items:center;justify-content:center;}
+  .stage{position:relative;width:100%;height:100%}
+  .stage svg{width:min(680px,100%);height:auto;max-height:84vh}
+
+  /* SVG layers */
+  .layer{opacity:0;transition:opacity .55s ease;}
+  .layer.on{opacity:1}
+
+  /* result box (last scene) */
+  .resultbox{background:var(--ivory);border:1px solid var(--rule);border-radius:16px;padding:22px 26px;width:min(440px,92%);}
+  .resultbox .label{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;font-weight:600;background:var(--ink);color:var(--ivory);padding:.45rem .7rem;border-radius:6px;display:inline-block;margin-bottom:1.1rem}
+  .resultbox .beta{font-family:"DM Serif Display",Georgia,serif;font-size:clamp(2.4rem,4vw,3.4rem);line-height:1;color:var(--ink);margin:0 0 .3rem}
+  .resultbox .beta small{font-family:inherit;font-size:.5em;vertical-align:super;color:var(--terra)}
+  .resultbox .caption{font-size:.86rem;color:var(--ink-soft)}
+  .resultbox hr{border:0;border-top:1px solid var(--rule);margin:1.1rem 0}
+  .resultbox .top20{color:var(--terra);font-family:"DM Serif Display",Georgia,serif;font-size:clamp(1.5rem,2.4vw,2rem);line-height:1.1}
+  .resultbox .footer{font-size:.72rem;color:var(--muted);margin-top:.6rem}
+
+  /* CLOSING */
+  .closing{padding:12vh 8vw 14vh;display:grid;grid-template-columns:1fr 1fr;gap:4vw;border-top:1px solid var(--rule);background:linear-gradient(180deg,var(--bg) 0%,#ECE6EA 100%);}
+  .closing h3{font-size:clamp(1.8rem,2.6vw,2.6rem);line-height:1.08;margin:0 0 1rem}
+  .closing p{color:var(--ink-soft);max-width:46ch}
+  .closing .card{background:var(--ivory);border:1px solid var(--rule);border-radius:16px;padding:2rem}
+  .closing .card h4{margin:0 0 .6rem;font-size:1.05rem;color:var(--ink)}
+  .closing .card p{font-size:.95rem;margin:0}
+  .closing .grid{display:grid;gap:1.1rem}
+
+  .citation{padding:5vh 8vw;color:var(--ink-soft);font-size:.86rem;border-top:1px solid var(--rule)}
+  .citation b{color:var(--ink)}
+
+  /* keyframe animations applied via .play classes set by JS */
+  @keyframes tabletGlow{0%{opacity:.25}50%{opacity:1}100%{opacity:.6}}
+  @keyframes tokenTravel{0%{opacity:0;offset-distance:0%}10%{opacity:1}90%{opacity:1}100%{opacity:0;offset-distance:100%}}
+  @keyframes drawEdge{from{stroke-dashoffset:240}to{stroke-dashoffset:0}}
+  @keyframes popIn{from{transform:scale(.3);opacity:0}to{transform:scale(1);opacity:1}}
+  @keyframes pulseGrow{0%{r:8}60%{r:18}100%{r:14}}
+  @keyframes pulseShrink{0%{r:8}60%{r:5}100%{r:6}}
+  @keyframes fadeOut{to{opacity:0}}
+
+  .play-game .tablet.t0{animation:tabletGlow 1.4s .0s ease both;mix-blend-mode:screen}
+  .play-game .tablet.t1{animation:tabletGlow 1.4s .15s ease both;mix-blend-mode:screen}
+  .play-game .tablet.t2{animation:tabletGlow 1.4s .3s ease both;mix-blend-mode:screen}
+  .play-game .tablet.t3{animation:tabletGlow 1.4s .45s ease both;mix-blend-mode:screen}
+  .play-game .tablet.t4{animation:tabletGlow 1.4s .6s ease both;mix-blend-mode:screen}
+  .play-game .tablet.t5{animation:tabletGlow 1.4s .75s ease both;mix-blend-mode:screen}
+
+  .play-game .token.k0{animation:tokenTravel 1.6s .8s ease-in-out both}
+  .play-game .token.k1{animation:tokenTravel 1.8s 1.0s ease-in-out both}
+  .play-game .token.k2{animation:tokenTravel 2.0s 1.2s ease-in-out both}
+  .play-game .token.k3{animation:tokenTravel 1.8s 1.4s ease-in-out both}
+  .play-game .token.k4{animation:tokenTravel 2.0s 1.6s ease-in-out both}
+  .play-game .token.k5{animation:tokenTravel 1.7s 1.8s ease-in-out both}
+
+  .play-net .tablet{animation:fadeOut .6s ease both}
+  .play-net .base-img{animation:fadeOut .9s ease forwards}
+  .play-cent .base-img{opacity:0}
+  .play-net .edge{stroke-dasharray:240;stroke-dashoffset:240}
+  .play-net .edge.e0{animation:drawEdge .9s .1s ease forwards}
+  .play-net .edge.e1{animation:drawEdge .9s .25s ease forwards}
+  .play-net .edge.e2{animation:drawEdge .9s .4s ease forwards}
+  .play-net .edge.e3{animation:drawEdge .9s .55s ease forwards}
+  .play-net .edge.e4{animation:drawEdge .9s .7s ease forwards}
+  .play-net .edge.e5{animation:drawEdge .9s .85s ease forwards}
+  .play-net .edge.e6{animation:drawEdge .9s 1.0s ease forwards}
+  .play-net .edge.e7{animation:drawEdge .9s 1.15s ease forwards}
+  .play-net .edge.recip{stroke:var(--teal);stroke-width:2.6}
+
+  .play-cent .node{transform-origin:center;animation:popIn .5s ease both}
+  .play-cent .node.big{animation:popIn .5s ease both, pulseGrow 1.4s .6s ease both}
+  .play-cent .node.small{animation:popIn .5s ease both, pulseShrink 1.4s .6s ease both}
+
+  /* mobile */
+  @media (max-width:880px){
+    .hero{grid-template-columns:1fr;padding:8vh 6vw 4vh}
+    .hero figure{order:-1;aspect-ratio:1/1;max-width:340px}
+    .scrolly{grid-template-columns:1fr;padding:4vh 6vw}
+    .figure-col .sticky{position:relative;top:auto;height:60vh;margin:2vh 0}
+    .scrolly .text-col{gap:12vh}
+    .step{min-height:auto}
+    .closing{grid-template-columns:1fr;padding:8vh 6vw}
+  }
+
+  .rail{position:fixed;left:8vw;top:30vh;bottom:30vh;width:2px;background:var(--rule);border-radius:2px;pointer-events:none;z-index:5}
+  .rail .fill{position:absolute;left:0;top:0;width:100%;background:var(--teal);height:0%;transition:height .25s ease}
+  @media (max-width:880px){.rail{display:none}}
+</style>
+</head>
+<body>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div>
+    <div class="eyebrow"><span class="dot"></span><span class="smallcaps">Reciprocidad &middot; rendimiento académico</span></div>
+    <h1 class="serif">¿Quiénes mejoran más durante el año?</h1>
+    <p class="lede">Estudiantes en relaciones recíprocas de cooperación, comparados con los que no.</p>
+    <div class="meta">
+      <span><b>855</b> estudiantes</span>
+      <span><b>14</b> escuelas públicas</span>
+      <span><b>45</b> aulas</span>
+      <span><b>2</b> semestres</span>
+      <span><b>~17.000</b> interacciones</span>
+    </div>
+    <div class="scroll-cue">desplaza para avanzar</div>
+  </div>
+  <figure aria-hidden="true">
+    <svg viewBox="0 0 520 520" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <marker id="hero-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="#132B27" opacity=".35"/>
+        </marker>
+        <marker id="hero-arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="#0E8B84"/>
+        </marker>
+      </defs>
+      <g stroke="#132B27" stroke-opacity=".22" stroke-width="1.2" fill="none" marker-end="url(#hero-arr)">
+        <path d="M120,140 L260,90"/><path d="M260,90 L400,150"/>
+        <path d="M120,140 L160,260"/><path d="M400,150 L420,290"/>
+        <path d="M420,290 L320,400"/><path d="M320,400 L180,380"/>
+        <path d="M180,380 L160,260"/><path d="M160,260 L260,250"/>
+        <path d="M260,250 L400,150"/><path d="M260,90 L160,260"/>
+        <path d="M180,380 L260,250"/>
+      </g>
+      <g fill="none" stroke="#0E8B84" stroke-width="2.2">
+        <path d="M232,250 C260,210 290,210 318,250" marker-end="url(#hero-arr-teal)"/>
+        <path d="M318,260 C290,300 260,300 232,260" marker-end="url(#hero-arr-teal)"/>
+      </g>
+      <g fill="#F2EEF0" stroke="#132B27" stroke-width="1.3">
+        <circle cx="120" cy="140" r="10"/><circle cx="260" cy="90" r="10"/><circle cx="400" cy="150" r="10"/>
+        <circle cx="420" cy="290" r="10"/><circle cx="320" cy="400" r="10"/><circle cx="180" cy="380" r="10"/>
+        <circle cx="160" cy="260" r="10"/>
+      </g>
+      <g>
+        <circle cx="225" cy="255" r="13" fill="#0E8B84"/>
+        <circle cx="325" cy="255" r="13" fill="#0E8B84"/>
+      </g>
+      <text x="222" y="218" font-family="Inter,sans-serif" font-size="11" fill="#0E8B84" font-weight="600" letter-spacing=".1em">RECÍPROCO</text>
+    </svg>
+  </figure>
+</section>
+
+<div class="rail" aria-hidden="true"><div class="fill" id="rail"></div></div>
+
+<!-- ===== SCROLLY ===== -->
+<section class="scrolly">
+  <div class="text-col" id="textcol">
+
+    <article class="step" data-scene="1">
+      <div class="step-num">01 · pregunta</div>
+      <h2 class="serif">No comparamos niveles. <br/>Comparamos cambios.</h2>
+      <p>¿Quiénes mejoran más durante el año escolar: estudiantes inmersos en relaciones recíprocas de cooperación, o sus compañeros que no lo están?</p>
+      <p class="note">Diseño longitudinal, 2 semestres. Sin asignación aleatoria: aprovechamos la variación dentro del aula.</p>
+    </article>
+
+    <article class="step" data-scene="2">
+      <div class="step-num">02 · el juego</div>
+      <span class="pill"><span class="swatch"></span>dictador no anónimo · tokens × 2</span>
+      <h2 class="serif">Una sala. Seis tablets. Diez tokens cada uno.</h2>
+      <p>Cada estudiante recibe <b>10 tokens</b> y los reparte entre compañeros identificados. Los tokens recibidos se <b>duplican</b>.</p>
+      <p class="note">El juego no es anónimo: cada decisión es sobre alguien con nombre. Las flechas que ves a la derecha son tokens reales viajando entre tablets.</p>
+    </article>
+
+    <article class="step" data-scene="3">
+      <div class="step-num">03 · la red emergente</div>
+      <h2 class="serif">El juego se desvanece. La red queda.</h2>
+      <p>Las tablets desaparecen, pero las decisiones no: cada envío se vuelve una <b>arista dirigida</b>. La sala deja de ser una caja negra y se vuelve una <b>red observable</b>.</p>
+      <p class="note">~17.000 decisiones · 45 redes locales · 855 nodos.</p>
+    </article>
+
+    <article class="step" data-scene="4">
+      <div class="step-num">04 · centralidad y reciprocidad</div>
+      <h2 class="serif">Los nodos crecen donde la cooperación es mutua.</h2>
+      <p>Algunas aristas son <span style="color:var(--teal);font-weight:600">recíprocas</span>: A envía a B <em>y</em> B envía a A. Otras van en una sola dirección.</p>
+      <p>Cuando rescalamos los nodos según su <b>reciprocidad</b>, la estructura se reordena: aparecen estudiantes muy embebidos en vínculos mutuos, y otros que casi no participan.</p>
+      <p class="note">Indicador clave: Rᵢ = peso recíproco promedio del estudiante <i>i</i>. Continuo, y luego dicotomizado en top 20%.</p>
+    </article>
+
+    <article class="step" data-scene="5">
+      <div class="step-num">05 · diseño causal</div>
+      <h2 class="serif">¿Quién mejora más entre semestres?</h2>
+      <p>Comparamos la trayectoria de rendimiento de estudiantes con <span style="color:var(--teal);font-weight:600">alta reciprocidad</span> frente a los de <span style="color:var(--ink-soft);font-weight:600">baja reciprocidad</span>, semestre 1 vs. semestre 2.</p>
+      <p class="note">Efecto DiD = Δ alta − Δ baja. Controles individuales + efectos fijos por curso.</p>
+    </article>
+
+    <article class="step" data-scene="6">
+      <div class="step-num">06 · resultado</div>
+      <h2 class="serif">La reciprocidad sostiene el desempeño.</h2>
+      <p>Mayor reciprocidad se asocia con una mejora diferencial en GPA entre semestres, dentro del mismo curso.</p>
+      <p class="note">β = 0.039*** (EE 0.012). Top 20% de reciprocidad: +0.10 puntos GPA*** (EE 0.034). *** p&lt;0.01.</p>
+    </article>
+
+  </div>
+
+  <!-- sticky stage -->
+  <div class="figure-col">
+    <div class="sticky">
+      <div class="stage" id="stage">
+
+        <!-- =============================================== -->
+        <!-- THE CLASSROOM STAGE — keeps the same coords, layers toggle -->
+        <!-- =============================================== -->
+        <svg viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg" id="classroom">
+          <defs>
+            <!-- arrow heads -->
+            <marker id="arr-terra" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" fill="#C75B24"/>
+            </marker>
+            <marker id="arr-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" fill="#132B27" opacity=".5"/>
+            </marker>
+            <marker id="arr-teal2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" fill="#0E8B84"/>
+            </marker>
+
+            <!-- desk paths along which tokens travel (so token positions tie to layout) -->
+            <!-- 6 student positions arranged in a soft hex around center -->
+            <!-- positions: A(160,170) B(350,110) C(540,170) D(540,380) E(350,470) F(160,380) -->
+            <!-- token paths (curved) -->
+            <path id="pAB" d="M180,180 C260,150 320,130 340,120" fill="none"/>
+            <path id="pAC" d="M180,180 C320,220 460,200 530,180" fill="none"/>
+            <path id="pBD" d="M360,130 C440,200 510,300 540,360" fill="none"/>
+            <path id="pCF" d="M530,180 C400,260 280,330 180,360" fill="none"/>
+            <path id="pEA" d="M340,460 C260,420 200,300 170,200" fill="none"/>
+            <path id="pFD" d="M170,380 C300,360 450,360 530,380" fill="none"/>
+          </defs>
+
+          <!-- ============= QUESTION LAYER (scene 1) ============= -->
+          <g class="layer layer-q on" id="layerQ">
+            <text x="50" y="60" font-family="Inter,sans-serif" font-size="12" letter-spacing=".18em" font-weight="600" fill="#4B5E5A">RENDIMIENTO ACADÉMICO</text>
+            <line x1="50" y1="510" x2="650" y2="510" stroke="#132B27" stroke-opacity=".3"/>
+            <line x1="50" y1="510" x2="50"  y2="80"  stroke="#132B27" stroke-opacity=".3"/>
+            <text x="160" y="545" font-family="Inter,sans-serif" font-size="13" fill="#4B5E5A">Semestre 1</text>
+            <text x="540" y="545" font-family="Inter,sans-serif" font-size="13" fill="#4B5E5A">Semestre 2</text>
+            <circle cx="180" cy="340" r="7" fill="#0E8B84"/>
+            <circle cx="180" cy="380" r="7" fill="#8a8378"/>
+            <circle cx="580" cy="220" r="7" fill="none" stroke="#0E8B84" stroke-dasharray="3 3"/>
+            <circle cx="580" cy="380" r="7" fill="none" stroke="#8a8378" stroke-dasharray="3 3"/>
+            <text x="590" y="225" font-family="DM Serif Display,serif" font-size="46" fill="#C75B24">?</text>
+            <text x="590" y="385" font-family="DM Serif Display,serif" font-size="46" fill="#8a8378">?</text>
+            <text x="200" y="335" font-family="Inter,sans-serif" font-size="12" fill="#0E8B84" font-weight="600">alta reciprocidad</text>
+            <text x="200" y="400" font-family="Inter,sans-serif" font-size="12" fill="#8a8378" font-weight="600">baja reciprocidad</text>
+          </g>
+
+          <!-- ============= CLASSROOM (game + network) ============= -->
+          <g class="layer layer-room" id="layerRoom">
+            <!-- Base image: reciprocity.png — versión adaptada del scrolly de autismo (estudiantes con tablets).
+                 Se desvanece en la escena 3 y queda la red emergente flotando en el mismo encuadre. -->
+            <image class="base-img" href="reciprocity.png" x="40" y="60" width="620" height="480" preserveAspectRatio="xMidYMid meet"/>
+
+            <!-- Tablets-glow overlay (subtle highlight while the image plays the game scene) -->
+            <g id="stations" class="stations">
+              <circle class="tablet t0" cx="160" cy="170" r="22" fill="#0E8B84" opacity="0"/>
+              <circle class="tablet t1" cx="350" cy="110" r="22" fill="#0E8B84" opacity="0"/>
+              <circle class="tablet t2" cx="540" cy="170" r="22" fill="#0E8B84" opacity="0"/>
+              <circle class="tablet t3" cx="540" cy="380" r="22" fill="#0E8B84" opacity="0"/>
+              <circle class="tablet t4" cx="350" cy="470" r="22" fill="#0E8B84" opacity="0"/>
+              <circle class="tablet t5" cx="160" cy="380" r="22" fill="#0E8B84" opacity="0"/>
+            </g>
+
+            <!-- token flow layer (game scene) -->
+            <g id="tokens" class="layer layer-tokens">
+              <!-- each token: a small circle traveling along a path via mpath/offsetPath  -->
+              <!-- We use motion-path via CSS offset-path; SVG fallback uses animateMotion -->
+              <circle class="token k0" r="5" fill="#C75B24"><animateMotion dur="1.6s" begin="indefinite" fill="freeze" id="mA"><mpath href="#pAB"/></animateMotion></circle>
+              <circle class="token k1" r="5" fill="#C75B24"><animateMotion dur="1.8s" begin="indefinite" fill="freeze"><mpath href="#pAC"/></animateMotion></circle>
+              <circle class="token k2" r="5" fill="#C75B24"><animateMotion dur="2s"   begin="indefinite" fill="freeze"><mpath href="#pBD"/></animateMotion></circle>
+              <circle class="token k3" r="5" fill="#C75B24"><animateMotion dur="1.8s" begin="indefinite" fill="freeze"><mpath href="#pCF"/></animateMotion></circle>
+              <circle class="token k4" r="5" fill="#C75B24"><animateMotion dur="2s"   begin="indefinite" fill="freeze"><mpath href="#pEA"/></animateMotion></circle>
+              <circle class="token k5" r="5" fill="#C75B24"><animateMotion dur="1.7s" begin="indefinite" fill="freeze"><mpath href="#pFD"/></animateMotion></circle>
+            </g>
+
+            <!-- multiplier badge -->
+            <g class="layer layer-mult" id="layerMult">
+              <rect x="270" y="40" width="160" height="32" rx="16" fill="#F8F3EA" stroke="#132B27" stroke-opacity=".18"/>
+              <text x="350" y="60" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" fill="#132B27"><tspan font-weight="600">tokens recibidos</tspan> &times; 2</text>
+            </g>
+
+            <!-- EDGES that materialize after game (scene 3) -->
+            <g class="layer layer-edges" id="layerEdges">
+              <g fill="none" stroke-width="1.6">
+                <!-- non-reciprocal -->
+                <line class="edge e0" x1="180" y1="180" x2="340" y2="120" stroke="#132B27" stroke-opacity=".55" marker-end="url(#arr-grey)"/>
+                <line class="edge e1" x1="540" y1="180" x2="540" y2="360" stroke="#132B27" stroke-opacity=".55" marker-end="url(#arr-grey)"/>
+                <line class="edge e2" x1="340" y1="460" x2="180" y2="380" stroke="#132B27" stroke-opacity=".55" marker-end="url(#arr-grey)"/>
+                <line class="edge e3" x1="180" y1="200" x2="180" y2="360" stroke="#132B27" stroke-opacity=".55" marker-end="url(#arr-grey)"/>
+
+                <!-- reciprocal pair B<->D drawn as two curves -->
+                <path class="edge e4 recip" d="M360,130 C440,200 510,300 530,360" stroke="#0E8B84" marker-end="url(#arr-teal2)"/>
+                <path class="edge e5 recip" d="M540,360 C500,260 430,180 360,140" stroke="#0E8B84" marker-end="url(#arr-teal2)"/>
+
+                <!-- reciprocal pair A<->C drawn as two curves -->
+                <path class="edge e6 recip" d="M180,170 C300,230 420,210 530,170" stroke="#0E8B84" marker-end="url(#arr-teal2)"/>
+                <path class="edge e7 recip" d="M530,180 C420,140 300,160 180,180" stroke="#0E8B84" marker-end="url(#arr-teal2)"/>
+              </g>
+            </g>
+
+            <!-- NODES that grow by centrality (scene 4) -->
+            <g class="layer layer-nodes" id="layerNodes">
+              <!-- node positions match stations -->
+              <circle class="node small" cx="160" cy="170" r="8" fill="#F2EEF0" stroke="#132B27"/>
+              <circle class="node big"   cx="350" cy="110" r="8" fill="#0E8B84" stroke="#132B27"/>
+              <circle class="node big"   cx="540" cy="170" r="8" fill="#0E8B84" stroke="#132B27"/>
+              <circle class="node big"   cx="540" cy="380" r="8" fill="#0E8B84" stroke="#132B27"/>
+              <circle class="node small" cx="350" cy="470" r="8" fill="#F2EEF0" stroke="#132B27"/>
+              <circle class="node small" cx="160" cy="380" r="8" fill="#F2EEF0" stroke="#132B27"/>
+
+              <!-- node labels appear at scene 4 -->
+              <g font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#0E8B84" opacity="0" class="node-labels">
+                <text x="358" y="98">alta reciprocidad</text>
+              </g>
+            </g>
+
+            <!-- INDICATOR PANEL (scene 4 bottom) -->
+            <g class="layer layer-ind" id="layerInd">
+              <rect x="60" y="510" width="580" height="70" rx="10" fill="#F8F3EA" stroke="#132B27" stroke-opacity=".18"/>
+              <text x="80" y="535" font-family="Inter,sans-serif" font-size="10" letter-spacing=".2em" font-weight="600" fill="#4B5E5A">INDICADOR · POR ESTUDIANTE</text>
+              <text x="80" y="565" font-family="DM Serif Display,serif" font-size="22" fill="#132B27">Rᵢ =</text>
+              <text x="140" y="557" font-family="Inter,sans-serif" font-size="12" fill="#132B27" font-weight="500">vínculos mutuos de <tspan fill="#0E8B84" font-weight="700">i</tspan></text>
+              <line x1="140" y1="563" x2="320" y2="563" stroke="#132B27"/>
+              <text x="140" y="578" font-family="Inter,sans-serif" font-size="12" fill="#4B5E5A">total de vínculos de <tspan fill="#132B27" font-weight="700">i</tspan></text>
+              <text x="360" y="565" font-family="Inter,sans-serif" font-size="11" fill="#4B5E5A">continuo · y top 20% como variable binaria</text>
+            </g>
+          </g>
+
+          <!-- ============= DiD LAYER (scene 5) ============= -->
+          <g class="layer layer-did" id="layerDid">
+            <text x="50" y="60" font-family="Inter,sans-serif" font-size="12" letter-spacing=".18em" font-weight="600" fill="#4B5E5A">RENDIMIENTO ACADÉMICO (GPA)</text>
+            <line x1="80" y1="510" x2="640" y2="510" stroke="#132B27" stroke-opacity=".35"/>
+            <line x1="80" y1="510" x2="80"  y2="80"  stroke="#132B27" stroke-opacity=".35"/>
+            <line x1="180" y1="80"  x2="180" y2="510" stroke="#132B27" stroke-opacity=".15" stroke-dasharray="3 4"/>
+            <line x1="540" y1="80"  x2="540" y2="510" stroke="#132B27" stroke-opacity=".15" stroke-dasharray="3 4"/>
+            <text x="180" y="540" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" fill="#4B5E5A">Semestre 1 (antes)</text>
+            <text x="540" y="540" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" fill="#4B5E5A">Semestre 2 (después)</text>
+            <!-- low recip line -->
+            <line x1="180" y1="400" x2="540" y2="375" stroke="#8a8378" stroke-width="2.8"/>
+            <circle cx="180" cy="400" r="7" fill="#8a8378"/>
+            <circle cx="540" cy="375" r="7" fill="#8a8378"/>
+            <text x="555" y="380" font-family="Inter,sans-serif" font-size="12" fill="#8a8378" font-weight="600">baja reciprocidad</text>
+            <!-- high recip line -->
+            <line x1="180" y1="340" x2="540" y2="180" stroke="#0E8B84" stroke-width="3"/>
+            <circle cx="180" cy="340" r="8" fill="#0E8B84"/>
+            <circle cx="540" cy="180" r="8" fill="#0E8B84"/>
+            <text x="555" y="184" font-family="Inter,sans-serif" font-size="12" fill="#0E8B84" font-weight="700">alta reciprocidad</text>
+            <!-- counterfactual + bracket -->
+            <line x1="180" y1="340" x2="540" y2="315" stroke="#0E8B84" stroke-width="1.4" stroke-dasharray="4 4" opacity=".6"/>
+            <line x1="556" y1="180" x2="556" y2="315" stroke="#C75B24" stroke-width="2.2"/>
+            <line x1="551" y1="180" x2="561" y2="180" stroke="#C75B24" stroke-width="2.2"/>
+            <line x1="551" y1="315" x2="561" y2="315" stroke="#C75B24" stroke-width="2.2"/>
+            <text x="570" y="248" font-family="Inter,sans-serif" font-size="13" fill="#C75B24" font-weight="700">Efecto DiD</text>
+            <text x="570" y="266" font-family="Inter,sans-serif" font-size="12" fill="#C75B24">Δ alta − Δ baja</text>
+            <text x="80" y="580" font-family="Inter,sans-serif" font-size="12" fill="#4B5E5A" font-style="italic">No comparamos niveles. Comparamos cambios.</text>
+          </g>
+
+          <!-- ============= RESULT LAYER (scene 6) ============= -->
+          <g class="layer layer-result" id="layerResult">
+            <!-- big number box rendered as foreignObject -->
+            <foreignObject x="120" y="120" width="460" height="360">
+              <div xmlns="http://www.w3.org/1999/xhtml" class="resultbox">
+                <div class="label">RESULTADO PRINCIPAL</div>
+                <div style="font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);font-weight:600;margin-bottom:.4rem">Efecto DiD · reciprocidad continua</div>
+                <div class="beta">0.039<small>***</small></div>
+                <div class="caption">EE = 0.012 · controles individuales · efectos fijos por curso</div>
+                <hr/>
+                <div style="font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);font-weight:600;margin-bottom:.4rem">Top 20% de reciprocidad</div>
+                <div class="top20">+0.10 puntos GPA<small style="font-family:inherit;font-size:.5em;vertical-align:super;color:var(--terra)">***</small></div>
+                <div class="caption">EE = 0.034</div>
+                <div class="footer">*** p&lt;0.01 · n=855 · 14 escuelas · 45 aulas · 2 semestres</div>
+              </div>
+            </foreignObject>
+          </g>
+
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CLOSING ===== -->
+<section class="closing">
+  <div>
+    <div class="smallcaps" style="margin-bottom:1rem">Lectura</div>
+    <h3 class="serif">Las relaciones recíprocas no son sólo vínculos sociales: son infraestructura del desempeño.</h3>
+    <p>Dentro del mismo curso, los estudiantes con mayor reciprocidad mejoran más entre semestres. La estructura de cooperación funciona como un sostén medible del rendimiento académico.</p>
+  </div>
+  <div class="grid">
+    <div class="card">
+      <div class="smallcaps" style="margin-bottom:.6rem">Extensión</div>
+      <h4>El mismo diseño se puede llevar a equipos adultos.</h4>
+      <p>Juego diádico de aporte → red dirigida de cooperación → indicadores → DiD sobre desempeño. Aplica a equipos de trabajo, comunidades de práctica, programas de innovación interna y otras organizaciones donde la cooperación sea parte del producto.</p>
+    </div>
+    <div class="card">
+      <div class="smallcaps" style="margin-bottom:.6rem">Pipeline metodológico</div>
+      <h4>De decisiones individuales a inferencia causal.</h4>
+      <p><b>1.</b> Juego no anónimo &nbsp;→&nbsp; <b>2.</b> Red dirigida &nbsp;→&nbsp; <b>3.</b> Indicadores estructurales &nbsp;→&nbsp; <b>4.</b> Diseño DiD &nbsp;→&nbsp; <b>5.</b> Efecto sobre desempeño.</p>
+    </div>
+  </div>
+</section>
+
+<section class="citation">
+  <b>Cita:</b> Candia, C., Oyarzún, M., Landaeta, V., Yaikin, T., Monge, C., Hidalgo, C., &amp; Rodríguez-Sickert, C. (2022).
+  Reciprocity heightens academic performance in elementary school students. <i>Heliyon</i>, 8(12), e11916.
+  <a href="https://doi.org/10.1016/j.heliyon.2022.e11916">doi.org/10.1016/j.heliyon.2022.e11916</a>
+</section>
+
+<script>
+  // Map each step (data-scene) to which SVG layers should be visible.
+  const SCENES = {
+    "1": { on: ["layerQ"],                           classes: [] },
+    "2": { on: ["layerRoom","layerMult"],            classes: ["play-game"] },
+    "3": { on: ["layerRoom","layerEdges"],           classes: ["play-net"] },
+    "4": { on: ["layerRoom","layerEdges","layerNodes","layerInd"], classes: ["play-cent","play-net"] },
+    "5": { on: ["layerDid"],                         classes: [] },
+    "6": { on: ["layerResult"],                      classes: [] }
+  };
+
+  const stageRoot = document.getElementById("stage");
+  const allLayers = stageRoot.querySelectorAll(".layer");
+
+  function activateScene(n){
+    const cfg = SCENES[n];
+    if(!cfg) return;
+    // toggle layer visibility
+    allLayers.forEach(l => l.classList.remove("on"));
+    cfg.on.forEach(id => {
+      const el = document.getElementById(id);
+      if(el) el.classList.add("on");
+    });
+
+    // reset animations by toggling helper classes on the stage root
+    ["play-game","play-net","play-cent"].forEach(c => stageRoot.classList.remove(c));
+    // force reflow so re-adding classes restarts CSS animations
+    void stageRoot.offsetWidth;
+    cfg.classes.forEach(c => stageRoot.classList.add(c));
+
+    // restart SMIL animateMotion (tokens) if game scene
+    if(cfg.classes.includes("play-game")){
+      stageRoot.querySelectorAll("#tokens animateMotion").forEach(am => {
+        try{ am.beginElement(); }catch(e){}
+      });
+    }
+  }
+
+  const steps = document.querySelectorAll(".step");
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if(e.isIntersecting && e.intersectionRatio > 0.45){
+        steps.forEach(s => s.classList.remove("is-active"));
+        e.target.classList.add("is-active");
+        activateScene(e.target.dataset.scene);
+      }
+    });
+  }, { threshold:[0.45,0.6,0.8] });
+  steps.forEach(s => io.observe(s));
+
+  // progress rail
+  const rail = document.getElementById("rail");
+  window.addEventListener("scroll", () => {
+    const total = document.body.scrollHeight - window.innerHeight;
+    const p = Math.max(0, Math.min(1, window.scrollY / total));
+    rail.style.height = (p*100).toFixed(1) + "%";
+  }, { passive:true });
+
+  // kick off scene 1 by default
+  activateScene("1");
+</script>
+</body>
+</html>
