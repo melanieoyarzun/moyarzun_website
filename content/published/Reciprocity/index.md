@@ -16,10 +16,6 @@ links:
   icon_pack: fa
   name: Download PDF
   url: reciprocity_candiaetal.pdf
-- icon: scroll
-  icon_pack: fas
-  name: Interactive story
-  url: scrollytelling.html
 show_post_time: false
 show_author_byline: false
 subtitle: "Heliyon · Cell Press · 2022 · Open Access"
@@ -61,35 +57,6 @@ We map cooperation networks in 45 Chilean classrooms using a non-anonymous socia
 "Relationships matter for learning" is a familiar slogan; it rarely comes with sharp measurement. Here we propose a reproducible pipeline — dyadic game → directed network → indicators → DiD — that quantifies the effect of classroom social structure on academic trajectories. The same design extends to workplaces, communities of practice, and other organizations where reciprocal cooperation is part of the product.
 </div>
 </div>
-
-<div class="paper-story-card">
-  <div class="paper-story-top">
-    <div>
-      <div class="paper-story-kicker"><strong>Complementary experience: visual scrollytelling</strong></div>
-      <p class="paper-story-text">A visual, step-by-step walkthrough of the paper: question → game → network → indicators → DiD design → result. Built for a data-science audience.</p>
-    </div>
-    <div class="paper-story-actions">
-      <a href="scrollytelling.html" target="_blank" rel="noopener" class="paper-story-button">
-        Open story
-      </a>
-    </div>
-  </div>
-
-  <details class="paper-story-details">
-    <summary class="paper-story-summary">See here >></summary>
-    <div class="paper-story-embed">
-      <iframe
-        src="scrollytelling.html"
-        title="Interactive story — Reciprocity heightens academic performance"
-        loading="lazy"
-        referrerpolicy="strict-origin-when-cross-origin">
-      </iframe>
-    </div>
-    <p class="paper-story-note">If the preview doesn't load, open the story in a new tab.</p>
-  </details>
-</div>
-
----
 
 ## Abstract
 

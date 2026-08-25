@@ -138,7 +138,31 @@
     });
   }
 
+  function attachBackgroundLightbox(el) {
+    if (el._lightboxAttached) return;
+    var src = el.getAttribute('data-lightbox-src');
+    if (!src) return;
+
+    function openFromElement() {
+      openLightbox(
+        src,
+        el.getAttribute('aria-label') || '',
+        el.getAttribute('data-lightbox-caption') || ''
+      );
+    }
+
+    el._lightboxAttached = true;
+    el.addEventListener('click', openFromElement);
+    el.addEventListener('keydown', function (event) {
+      if (event.key !== 'Enter' && event.key !== ' ') return;
+      event.preventDefault();
+      openFromElement();
+    });
+  }
+
   // Attach to featured-pair immediately (no regrouping needed)
   document.querySelectorAll('.talk-featured-pair').forEach(attachLightbox);
+  document.querySelectorAll('.paper-single .paper-figure').forEach(attachLightbox);
+  document.querySelectorAll('.paper-lightbox-trigger').forEach(attachBackgroundLightbox);
 
 })();

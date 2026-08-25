@@ -10,8 +10,13 @@
 {{ if not $hero }}{{ $hero = .Resources.GetMatch "featured*" }}{{ end }}
 
 {{ if $hero }}
-<div class="paper-hero"
-     style="background-image: url('{{ $hero.RelPermalink }}');">
+<div class="paper-hero paper-lightbox-trigger"
+     style="background-image: url('{{ $hero.RelPermalink }}');"
+     data-lightbox-src="{{ $hero.RelPermalink }}"
+     data-lightbox-caption="{{ .Title }}"
+     role="button"
+     tabindex="0"
+     aria-label="Open image for {{ .Title }}">
   <div class="paper-hero-text mw7 center ph4">
     <h1 class="paper-hero-title">{{ .Title }}</h1>
     {{ if .Params.subtitle }}

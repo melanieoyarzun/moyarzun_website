@@ -16,10 +16,6 @@ links:
   icon_pack: fa
   name: Descargar PDF
   url: reciprocity_candiaetal.pdf
-- icon: scroll
-  icon_pack: fas
-  name: Historia interactiva
-  url: scrollytelling.html
 show_post_time: false
 show_author_byline: false
 subtitle: "Heliyon · Cell Press · 2022 · Open Access"
@@ -61,35 +57,6 @@ Mapeamos redes de cooperación en 45 salas de clase chilenas usando un dilema so
 La idea de que "las relaciones importan" es ampliamente compartida en educación, pero rara vez se mide bien <em>cuáles</em> relaciones y <em>cuánto</em>. Aquí proponemos una pipeline reproducible — juego diádico → red dirigida → indicadores → DiD — que permite cuantificar el efecto de la estructura social del aula sobre el aprendizaje. El mismo diseño es extensible a equipos de trabajo, comunidades de práctica y otras organizaciones donde la cooperación sea parte del producto.
 </div>
 </div>
-
-<div class="paper-story-card">
-  <div class="paper-story-top">
-    <div>
-      <div class="paper-story-kicker"><strong>Experiencia complementaria: scrollytelling visual</strong></div>
-      <p class="paper-story-text">Una versión visual del paper, paso a paso: pregunta → juego → red → indicadores → diseño DiD → resultado. Pensada para audiencias de ciencia de datos.</p>
-    </div>
-    <div class="paper-story-actions">
-      <a href="scrollytelling.html" target="_blank" rel="noopener" class="paper-story-button">
-        Abrir historia
-      </a>
-    </div>
-  </div>
-
-  <details class="paper-story-details">
-    <summary class="paper-story-summary">Ver aquí >></summary>
-    <div class="paper-story-embed">
-      <iframe
-        src="scrollytelling.html"
-        title="Historia interactiva — La reciprocidad mejora el rendimiento académico"
-        loading="lazy"
-        referrerpolicy="strict-origin-when-cross-origin">
-      </iframe>
-    </div>
-    <p class="paper-story-note">Si la vista previa no carga, abre la historia en una pestaña nueva.</p>
-  </details>
-</div>
-
----
 
 ## Resumen
 

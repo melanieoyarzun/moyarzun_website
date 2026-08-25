@@ -298,6 +298,10 @@
   color: #ffffff;
 }
 
+.paper-lightbox-trigger {
+  cursor: zoom-in;
+}
+
 .paper-hero-text {
   width: 100%;
 }
@@ -482,6 +486,13 @@
     width: 100%;
     border-radius: 6px;
     border: 1px solid #cde5e8;
+    cursor: zoom-in;
+    transition: box-shadow 160ms ease, transform 160ms ease;
+
+    &:hover {
+      box-shadow: 0 8px 28px rgba(20, 48, 60, 0.16);
+      transform: translateY(-1px);
+    }
   }
 
   figcaption {
